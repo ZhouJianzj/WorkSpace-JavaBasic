@@ -9,7 +9,7 @@ package TextClass;
 public class Text4 {
     public static void main (String [] args){
 
-        com.ZhouJian.Text.TextClass.Overload.P("你");
+
     }
 }
 

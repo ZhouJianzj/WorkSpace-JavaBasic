@@ -61,7 +61,7 @@ class Account{
 /**
  * 信用账户
  */
-class CreditAccount  extends com.ZhouJian.Text.Account.Account {
+class CreditAccount  extends Account {
 //    私有的属性
     private double credit;
     public CreditAccount(){
