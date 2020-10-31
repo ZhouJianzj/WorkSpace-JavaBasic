@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="" />
+    <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day11/Day11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Javadaily/Day11.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +159,7 @@
       <workItem from="1603972337698" duration="6678000" />
       <workItem from="1604064621645" duration="9779000" />
       <workItem from="1604137910320" duration="5888000" />
+      <workItem from="1604155554524" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
