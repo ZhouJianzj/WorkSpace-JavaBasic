@@ -13,6 +13,13 @@ public class Student {
     private Book[] books;
     private Phone phones;
 
+    public Student(String 白胡子, int i, int i1) {
+    }
+
+    public Student(String s) {
+
+    }
+
     public Book[] getBooks() {
         return books;
     }
@@ -60,5 +67,8 @@ public class Student {
         this.gender = gender;
         this.books = books;
         this.phones = phones;
+    }
+
+    public void getStature() {
     }
 }
