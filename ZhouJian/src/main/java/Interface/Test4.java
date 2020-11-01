@@ -29,9 +29,9 @@ class Customers{
      * 这里是 Customer Has a FoodMenu 所以是Customer的一个属性
       */
     public static void main(String[] args) {
+        FoodMenu foodMenu;
         FoodMenu f = new Cooker();
-        f.yuXiangRouSi();
-        f.xiHongShiChaoJiDan();
+
     }
 
 }
