@@ -20,7 +20,7 @@ public class TestCalendar {
         System.out.println(year + "年" + month + "月" + dayOfMonth + "日");
 
         Calendar call = Calendar.getInstance();
-        call.set(Calendar.YEAR,2020);
+        call.set(Calendar.YEAR,2011);
         System.out.println(year + "年" + month + "月" + dayOfMonth + "日");
 
         Calendar cal2 = Calendar.getInstance();
