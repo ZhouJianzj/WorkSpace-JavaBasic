@@ -1,4 +1,6 @@
-package Equals;
+package Object.Equals;
+
+import java.util.Objects;
 
 /**
  * @ClassName Test01
@@ -13,7 +15,7 @@ public class Test01 {
     public static void main(String[] args) {
         int a = 1;
         int b = 1;
-        MyTime t1 = new MyTime();
+        MyTime t1 = null;
         MyTime t2 = new MyTime();
 //      可以比较两个数值
         System.out.println(a == b);
@@ -55,5 +57,29 @@ class MyTime{
             }
         }
        return false;
+    }
+
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (o == null || getClass() != o.getClass()) return false;
+//        MyTime myTime = (MyTime) o;
+//        return year == myTime.year &&
+//                month == myTime.month &&
+//                day == myTime.day;
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(year, month, day);
+//    }
+
+    @Override
+    public String toString() {
+        return "MyTime{" +
+                "year=" + year +
+                ", month=" + month +
+                ", day=" + day +
+                '}';
     }
 }
