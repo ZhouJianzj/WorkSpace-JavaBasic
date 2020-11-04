@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day14/AnonymityOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day14/ColorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day14/ColorsEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day14/Outclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day14/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day14/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/toString/OverRide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +60,7 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnumTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javadaily.Day14.EnumTest" />
       <module name="JavaStudy" />
@@ -92,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javadaily.Day14.TestClass" />
-      <module name="JavaStudy" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toString.Test" />
+      <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javadaily.Day14.*" />
+          <option name="PATTERN" value="toString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPriceHigh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasic.week5.Work.TestPriceHigh" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javadaily.Day14.TestClass" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasic.week5.Work.*" />
+          <option name="PATTERN" value="Javadaily.Day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.EnumTest" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.OuterTest" />
         <item itemvalue="Application.TestRegex" />
-        <item itemvalue="Application.TestPriceHigh" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +165,8 @@
       <workItem from="1604297592265" duration="10063000" />
       <workItem from="1604318489375" duration="2929000" />
       <workItem from="1604361434973" duration="114000" />
-      <workItem from="1604402384848" duration="8975000" />
+      <workItem from="1604402384848" duration="9455000" />
+      <workItem from="1604488071550" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -215,26 +211,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603718670519" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1604411199510">
+    <state width="914" height="249" key="GridCell.Tab.0.bottom" timestamp="1604488734644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604411199510" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1604411199510">
+    <state width="914" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604488734644" />
+    <state width="914" height="249" key="GridCell.Tab.0.center" timestamp="1604488734644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604411199510" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1604411199509">
+    <state width="914" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604488734644" />
+    <state width="914" height="249" key="GridCell.Tab.0.left" timestamp="1604488734644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604411199509" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1604411199510">
+    <state width="914" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604488734644" />
+    <state width="914" height="249" key="GridCell.Tab.0.right" timestamp="1604488734644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604411199510" />
+    <state width="914" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604488734644" />
     <state width="1877" height="206" key="GridCell.Tab.1.bottom" timestamp="1604240758975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
