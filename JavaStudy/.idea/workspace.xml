@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Object/Clone/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Object/HashCode/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +168,7 @@
       <workItem from="1604488071550" duration="19461000" />
       <workItem from="1604558153026" duration="83000" />
       <workItem from="1604563321985" duration="9540000" />
-      <workItem from="1604580730072" duration="4586000" />
+      <workItem from="1604580730072" duration="5498000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
