@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day16/RandomCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Object/Equals/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Object/Finalize/Finalize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Object/Clone/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Object/HashCode/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Object/Equals/Text02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Object/Equals/Text02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -63,7 +61,7 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomCode">
+  <component name="RunManager" selected="Application.Test01 (1)">
     <configuration name="RandomCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javadaily.Day16.RandomCode" />
       <module name="JavaStudy" />
@@ -90,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Object.Equals.Test01" />
+    <configuration name="Test01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Object.HashCode.Test01" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Object.Equals.*" />
+          <option name="PATTERN" value="Object.HashCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test01 (1)" />
         <item itemvalue="Application.RandomCode" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test03" />
         <item itemvalue="Application.Text02" />
-        <item itemvalue="Application.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,8 @@
       <workItem from="1604402384848" duration="9455000" />
       <workItem from="1604488071550" duration="19461000" />
       <workItem from="1604558153026" duration="83000" />
-      <workItem from="1604563321985" duration="9211000" />
+      <workItem from="1604563321985" duration="9540000" />
+      <workItem from="1604580730072" duration="4586000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -216,30 +215,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="327" y="191" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604068762729" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604558231349">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604581113937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604558231349" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1604575191123">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604581113937" />
+    <state width="914" height="181" key="GridCell.Tab.0.bottom" timestamp="1604582585535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604575191123" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1604575191122">
+    <state width="914" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604582585535" />
+    <state width="914" height="181" key="GridCell.Tab.0.center" timestamp="1604582585535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604575191122" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1604575191122">
+    <state width="914" height="181" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604582585535" />
+    <state width="914" height="181" key="GridCell.Tab.0.left" timestamp="1604582585534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604575191122" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1604575191123">
+    <state width="914" height="181" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604582585534" />
+    <state width="914" height="181" key="GridCell.Tab.0.right" timestamp="1604582585535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604575191123" />
+    <state width="914" height="181" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604582585535" />
     <state width="1877" height="196" key="GridCell.Tab.1.bottom" timestamp="1604508211884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,10 +255,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="196" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604508211884" />
-    <state x="662" y="139" width="998" height="714" key="SettingsEditor" timestamp="1604134196303">
+    <state x="662" y="139" width="998" height="714" key="SettingsEditor" timestamp="1604581117436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="139" width="998" height="714" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604134196303" />
+    <state x="662" y="139" width="998" height="714" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604581117436" />
     <state x="268" y="200" width="930" height="945" key="dock-window-1" timestamp="1604501046965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -272,6 +271,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="43" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603719248622" />
+    <state x="837" y="342" width="716" height="586" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604581116050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="837" y="342" width="716" height="586" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604581116050" />
     <state x="702" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1604410747059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
