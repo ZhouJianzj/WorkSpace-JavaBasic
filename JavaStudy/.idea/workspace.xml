@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day17/VarPassing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +60,7 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test03">
-    <configuration name="RandomCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javadaily.Day16.RandomCode" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Javadaily.Day16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test04">
     <configuration name="Test01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Object.HashCode.Test01" />
       <module name="ZhouJian" />
@@ -117,6 +100,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Test04" />
+      <module name="ZhouJian" />
+      <option name="PROGRAM_PARAMETERS" value="zhoujian 123" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.test02" />
       <module name="ZhouJian" />
@@ -131,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RandomCode" />
       <item itemvalue="Application.Test01 (1)" />
       <item itemvalue="Application.test02" />
       <item itemvalue="Application.Test03" />
       <item itemvalue="Application.Test01" />
+      <item itemvalue="Application.Test04" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test04" />
         <item itemvalue="Application.Test03" />
         <item itemvalue="Application.test02" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="Application.Test01 (1)" />
-        <item itemvalue="Application.RandomCode" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +178,8 @@
       <workItem from="1604558153026" duration="83000" />
       <workItem from="1604563321985" duration="9540000" />
       <workItem from="1604580730072" duration="5498000" />
-      <workItem from="1604665128766" duration="6574000" />
+      <workItem from="1604665128766" duration="7881000" />
+      <workItem from="1604677146302" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -205,10 +203,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="609" y="231" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604212035529" />
-    <state x="658" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604672619384">
+    <state x="531" y="29" width="1092" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604678370855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604672619384" />
+    <state x="531" y="29" width="1092" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604678370855" />
     <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1604565146810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,26 +232,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604581113937" />
-    <state width="914" height="179" key="GridCell.Tab.0.bottom" timestamp="1604672976556">
+    <state width="1050" height="179" key="GridCell.Tab.0.bottom" timestamp="1604678457342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="914" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604672976556" />
-    <state width="914" height="179" key="GridCell.Tab.0.center" timestamp="1604672976556">
+    <state width="1050" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604678457342" />
+    <state width="1050" height="179" key="GridCell.Tab.0.center" timestamp="1604678457342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="914" height="179" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604672976556" />
-    <state width="914" height="179" key="GridCell.Tab.0.left" timestamp="1604672976555">
+    <state width="1050" height="179" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604678457342" />
+    <state width="1050" height="179" key="GridCell.Tab.0.left" timestamp="1604678457342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="914" height="179" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604672976555" />
-    <state width="914" height="179" key="GridCell.Tab.0.right" timestamp="1604672976556">
+    <state width="1050" height="179" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604678457342" />
+    <state width="1050" height="179" key="GridCell.Tab.0.right" timestamp="1604678457342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="914" height="179" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604672976556" />
+    <state width="1050" height="179" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604678457342" />
     <state width="1877" height="196" key="GridCell.Tab.1.bottom" timestamp="1604508211884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,9 +300,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604320185780" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1604564998644">
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1604677545021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604564998644" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604677545021" />
   </component>
 </project>
