@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HelloWorldSwing.HelloWorldSwing">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="659" height="486"/>
+    </constraints>
+    <properties>
+      <background color="-12500713"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c1a09" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="5300" class="javax.swing.JButton" binding="button5" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <grid id="fefdd" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-13221598"/>
+          <preferredSize width="30" height="30"/>
+          <requestFocusEnabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="b17f9" binding="topPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <enabled value="true"/>
+          <preferredSize width="30" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c3590" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="4530b" class="javax.swing.JButton" binding="button4" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="ab73e" class="javax.swing.JButton" binding="button6" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="7b5c5" class="javax.swing.JButton" binding="button7" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e6c87" binding="leftPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <preferredSize width="200" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b969d" class="javax.swing.JButton" binding="name">
+            <constraints border-constraint="North"/>
+            <properties>
+              <actionCommand value=""/>
+              <text value="姓名"/>
+            </properties>
+          </component>
+          <component id="b80de" class="javax.swing.JButton" binding="check">
+            <constraints border-constraint="South"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="30" height="30"/>
+              <text value="检测"/>
+            </properties>
+          </component>
+          <component id="fd5c2" class="javax.swing.JButton" binding="weight">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <inheritsPopupMenu value="true"/>
+              <maximumSize width="30" height="30"/>
+              <minimumSize width="30" height="30"/>
+              <preferredSize width="30" height="30"/>
+              <text value="体重"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
