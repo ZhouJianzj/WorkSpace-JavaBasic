@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day18/HelloWorldSwing.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day18/HelloWorldSwing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/BoubleArray01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/DoubleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Test04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="235" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
@@ -55,27 +61,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Array" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\JavaStudy\src\main\java" />
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test04">
-    <configuration name="Test01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Object.HashCode.Test01" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Object.HashCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Test01" />
+  <component name="RunManager" selected="Application.HelloWorldSwing">
+    <configuration name="BoubleArray01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.BoubleArray01" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Test03" />
+    <configuration name="DoubleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.DoubleArray" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldSwing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javadaily.Day18.HelloWorldSwing" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Javadaily.Day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.test02" />
+    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Test05" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +137,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test01 (1)" />
-      <item itemvalue="Application.test02" />
-      <item itemvalue="Application.Test03" />
-      <item itemvalue="Application.Test01" />
       <item itemvalue="Application.Test04" />
+      <item itemvalue="Application.Test05" />
+      <item itemvalue="Application.DoubleArray" />
+      <item itemvalue="Application.BoubleArray01" />
+      <item itemvalue="Application.HelloWorldSwing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorldSwing" />
+        <item itemvalue="Application.BoubleArray01" />
+        <item itemvalue="Application.DoubleArray" />
+        <item itemvalue="Application.Test05" />
         <item itemvalue="Application.Test04" />
-        <item itemvalue="Application.Test03" />
-        <item itemvalue="Application.test02" />
-        <item itemvalue="Application.Test01" />
-        <item itemvalue="Application.Test01 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +189,9 @@
       <workItem from="1604580730072" duration="5498000" />
       <workItem from="1604665128766" duration="7881000" />
       <workItem from="1604677146302" duration="1867000" />
+      <workItem from="1604735770208" duration="1129000" />
+      <workItem from="1604818912288" duration="9211000" />
+      <workItem from="1604833174987" duration="3932000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -207,18 +219,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="29" width="1092" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604678370855" />
-    <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1604565146810">
+    <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1604823648784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="203" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604306718894" />
-    <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604565146810" />
+    <state x="285" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604823648784" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603718461965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603718461965" />
-    <state x="894" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604504660775">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604736664753">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1604736664753" />
     <state x="894" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604504660775" />
     <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604407522152">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -232,42 +245,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604581113937" />
-    <state width="1050" height="179" key="GridCell.Tab.0.bottom" timestamp="1604678457342">
+    <state width="1050" height="25" key="GridCell.Tab.0.bottom" timestamp="1604838810521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1050" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604678457342" />
-    <state width="1050" height="179" key="GridCell.Tab.0.center" timestamp="1604678457342">
+    <state width="1050" height="25" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604838810521" />
+    <state width="1050" height="25" key="GridCell.Tab.0.center" timestamp="1604838810520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1050" height="179" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604678457342" />
-    <state width="1050" height="179" key="GridCell.Tab.0.left" timestamp="1604678457342">
+    <state width="1050" height="25" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604838810520" />
+    <state width="1050" height="25" key="GridCell.Tab.0.left" timestamp="1604838810520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1050" height="179" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604678457342" />
-    <state width="1050" height="179" key="GridCell.Tab.0.right" timestamp="1604678457342">
+    <state width="1050" height="25" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604838810520" />
+    <state width="1050" height="25" key="GridCell.Tab.0.right" timestamp="1604838810520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="359" height="499" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604308105386" />
-    <state width="1050" height="179" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604678457342" />
-    <state width="1877" height="196" key="GridCell.Tab.1.bottom" timestamp="1604508211884">
+    <state width="1050" height="25" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604838810520" />
+    <state width="914" height="195" key="GridCell.Tab.1.bottom" timestamp="1604837606919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="196" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604508211884" />
-    <state width="1877" height="196" key="GridCell.Tab.1.center" timestamp="1604508211884">
+    <state width="914" height="195" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604837606919" />
+    <state width="914" height="195" key="GridCell.Tab.1.center" timestamp="1604837606918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="196" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604508211884" />
-    <state width="1877" height="196" key="GridCell.Tab.1.left" timestamp="1604508211883">
+    <state width="914" height="195" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604837606918" />
+    <state width="914" height="195" key="GridCell.Tab.1.left" timestamp="1604837606918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="196" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604508211883" />
-    <state width="1877" height="196" key="GridCell.Tab.1.right" timestamp="1604508211884">
+    <state width="914" height="195" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604837606918" />
+    <state width="914" height="195" key="GridCell.Tab.1.right" timestamp="1604837606918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="196" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604508211884" />
+    <state width="914" height="195" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604837606918" />
     <state x="662" y="139" width="998" height="714" key="SettingsEditor" timestamp="1604581117436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,10 +289,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1076" y="289" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604671531632" />
-    <state x="268" y="200" width="930" height="945" key="dock-window-1" timestamp="1604501046965">
+    <state x="974" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604822330781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="268" y="200" width="930" height="945" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1604501046965" />
+    <state x="974" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604822330781" />
+    <state x="584" y="99" width="687" height="986" key="dock-window-1" timestamp="1604838865002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="584" y="99" width="687" height="986" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1604838865002" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-2" timestamp="1604502952082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,13 +313,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604410747059" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1604320185780">
+    <state x="136" y="244" key="run.anything.popup" timestamp="1604827386995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604320185780" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1604677545021">
+    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604827386995" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1604823624670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604677545021" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604823624670" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ZhouJian/src/main/java/Array/BoubleArray01.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
