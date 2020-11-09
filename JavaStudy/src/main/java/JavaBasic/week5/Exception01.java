@@ -20,6 +20,7 @@ public class Exception01 {
 //            e.printStackTrace()
         }
         System.out.println(result);
+        System.out.println("=============================");
 
 
 

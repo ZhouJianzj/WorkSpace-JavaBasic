@@ -13,7 +13,7 @@ import java.lang.management.ManagementFactory;
  **/
 public class SwingLoginExample {
     public static void main(String[] args) {
-//        创建Jframeshili
+
         JFrame frame = new JFrame("Login Example");
         frame.setSize(350,200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

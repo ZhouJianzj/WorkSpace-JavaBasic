@@ -17,9 +17,10 @@ public class BoubleArray01 {
         };
 //        遍历二维数组
         for (int i = 0; i < a.length;i++){
-            for(int i1 = 0;i1< a[i].length; i1++){
-                System.out.print(a[i][i1] + " ");
+            for(int J = 0;J< a[i].length; J++){
+                System.out.print(a[i][J] );
             }
+            System.out.println();
         }
     }
 }
