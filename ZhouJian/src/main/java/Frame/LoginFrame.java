@@ -22,8 +22,6 @@ public class LoginFrame extends JFrame {
     private JPanel leftPanel;
     private JPanel logo;
     private JPanel login;
-    private JButton button1;
-    private JButton button2;
     private JLabel liveshow;
     private JButton denglu;
     private JTextField textField1;

@@ -77,6 +77,9 @@ class Test{
     public static void main(String[] args) {
        Object[] objects = new Object[3];
        MyStack myStack = new MyStack(objects);
+
+
+
 //       演示数组的压栈,为了方便使用了一个for循环
 //         如果p大于了objects.length的长度就会显示栈已经满了
        for (int p = 1;p <= objects.length;p++){
@@ -85,11 +88,13 @@ class Test{
 //        遍历数组,方法归类了
         ForArray.forArray(objects);
 
+
+
+
 //          下面是弹栈的演示
         for(int pop = objects.length; pop > 0;pop--){
             myStack.pop();
         }
-
         ForArray.forArray(objects);
     }
 
