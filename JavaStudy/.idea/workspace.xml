@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Frame/LoginFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Frame/LoginFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Frame/LoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBasic/week5/Exception01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week5/Exception01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Javadaily/Day18/SwingLoginExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day18/SwingLoginExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/BoubleArray01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/BoubleArray01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,7 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginFrame">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BoubleArray01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.BoubleArray01" />
       <module name="ZhouJian" />
@@ -93,19 +87,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaBasic.week5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorldSwing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javadaily.Day18.HelloWorldSwing" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Javadaily.Day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,20 +120,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Work.Test" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.Work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BoubleArray01" />
-      <item itemvalue="Application.HelloWorldSwing" />
       <item itemvalue="Application.SwingLoginExample" />
       <item itemvalue="Application.Exception01" />
       <item itemvalue="Application.LoginFrame" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.LoginFrame" />
         <item itemvalue="Application.BoubleArray01" />
         <item itemvalue="Application.Exception01" />
         <item itemvalue="Application.SwingLoginExample" />
-        <item itemvalue="Application.HelloWorldSwing" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +191,7 @@
       <workItem from="1604833174987" duration="17604000" />
       <workItem from="1604898847899" duration="2913000" />
       <workItem from="1604904950888" duration="7482000" />
-      <workItem from="1604917636754" duration="5044000" />
+      <workItem from="1604917636754" duration="8809000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -255,26 +249,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604581113937" />
-    <state width="1841" height="26" key="GridCell.Tab.0.bottom" timestamp="1604922643739">
+    <state width="914" height="224" key="GridCell.Tab.0.bottom" timestamp="1604926458141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="119" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604912448242" />
-    <state width="1841" height="26" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604922643739" />
-    <state width="1841" height="26" key="GridCell.Tab.0.center" timestamp="1604922643738">
+    <state width="914" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604926458141" />
+    <state width="914" height="224" key="GridCell.Tab.0.center" timestamp="1604926458141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="119" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604912448242" />
-    <state width="1841" height="26" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604922643738" />
-    <state width="1841" height="26" key="GridCell.Tab.0.left" timestamp="1604922643738">
+    <state width="914" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604926458141" />
+    <state width="914" height="224" key="GridCell.Tab.0.left" timestamp="1604926458141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="119" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604912448242" />
-    <state width="1841" height="26" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604922643738" />
-    <state width="1841" height="26" key="GridCell.Tab.0.right" timestamp="1604922643739">
+    <state width="914" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604926458141" />
+    <state width="914" height="224" key="GridCell.Tab.0.right" timestamp="1604926458141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="119" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604912448242" />
-    <state width="1841" height="26" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604922643739" />
+    <state width="914" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604926458141" />
     <state width="1734" height="129" key="GridCell.Tab.1.bottom" timestamp="1604922024131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
