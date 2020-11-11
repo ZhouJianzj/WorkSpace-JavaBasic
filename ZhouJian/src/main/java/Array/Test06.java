@@ -15,7 +15,7 @@ public class Test06 {
     public static void main(String[] args) {
         int[] aa = Array.a;
         int[] bb = Array.b ;
-//        这里的scrPos:表示源数组的元素的起始下标  这里的dest代表目的数组
+//        这里的srcPos:表示源数组的元素的起始下标  这里的dest代表目的数组
         System.arraycopy(aa,0,bb,0,aa.length);
     }
 
