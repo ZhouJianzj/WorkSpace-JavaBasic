@@ -3,6 +3,7 @@ package Array.Work;
 /**
  * @ClassName myStack
  * @Description TODO
+ * ***********************模拟栈的弹栈和压栈
  * @Author ZhouJian
  * @Date 2020/11/8
  **/
@@ -21,7 +22,7 @@ import java.util.regex.Matcher;
  */
 public class MyStack {
     Object[] elements ;
-    int index = 0;
+    int index = -1;
 /**
  * 主函数调用的时候直接传一个数组进来
   */
@@ -40,12 +41,14 @@ public class MyStack {
     public void push(Object o){
 //        下标的参数0-length-1 慢的时候就是index < length
         if(index < elements.length){
+            //            下一次压栈的时候依次的往后面排，知道index < elements.length
+            index++;
 //            使其数组中的元素为 其输入的元素
             elements[index] = o;
-//            下一次压栈的时候依次的往后面排，知道index < elements.length
-            index++;
+
         }else{
             System.out.println("栈已满！无法压栈操作！");
+            return;
         }
     }
 
@@ -53,13 +56,15 @@ public class MyStack {
      * 弹栈的操作,由于栈的进出是先进后出的原则所以在此设计的时候就不添加弹栈的元素了
      */
     public void pop(){
-            index--;
+
 //        当栈中没有元素的时候就是下标index < 0 的时候
         if(index < 0){
             System.out.println("当前的栈已空无法执行大人的弹栈操作!");
+            return;
         }else{
 //            弹栈是从当前的元素开始弹不可以当数组当中有五个元素你要弹下标为0的元素
             elements[index] = 0;
+            index--;
 
         }
     }
