@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Object01/utils/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArraysUtil/ArraysTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArraysUtil/ArraysTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/ArrayTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/TestT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/InterfaceJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/JavaProgrammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/MySQL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Test/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Test/test01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +39,11 @@
         <option name="mavenHome" value="D:/maven/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+      </MavenImportingSettings>
     </option>
     <option name="enabledProfiles">
       <list>
@@ -56,7 +73,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -70,7 +87,59 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestTwo">
+  <component name="RunManager" selected="Application.JavaProgrammer">
+    <configuration name="ArraysTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.ArraysUtil.ArraysTest01" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.ArraysUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.ArraysUtil.ArraysTest02" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.ArraysUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaProgrammer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Jbdc.JavaProgrammer" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Jbdc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javadaily.Object01.utils.JdbcUtil" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Javadaily.Object01.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.Work01.Test" />
       <module name="ZhouJian" />
@@ -84,72 +153,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Work.Test" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.Work.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Work01.Test.Test02" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.Work01.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Work01.TestOne" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.Work01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Work01.TestTwo" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.Work01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.TestOne" />
-      <item itemvalue="Application.TestTwo" />
-      <item itemvalue="Application.Test02" />
+      <item itemvalue="Application.ArraysTest01" />
+      <item itemvalue="Application.ArraysTest02" />
+      <item itemvalue="Application.JdbcUtil" />
+      <item itemvalue="Application.JavaProgrammer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestTwo" />
-        <item itemvalue="Application.Test02" />
-        <item itemvalue="Application.TestOne" />
+        <item itemvalue="Application.JavaProgrammer" />
+        <item itemvalue="Application.JdbcUtil" />
+        <item itemvalue="Application.ArraysTest02" />
+        <item itemvalue="Application.ArraysTest01" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +213,8 @@
       <workItem from="1604904950888" duration="7482000" />
       <workItem from="1604917636754" duration="13228000" />
       <workItem from="1605091839280" duration="17751000" />
+      <workItem from="1605168477457" duration="7070000" />
+      <workItem from="1605433538919" duration="7480000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -235,11 +254,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605097783377" />
-    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1605105061403">
+    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1605445217442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="203" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604911975913" />
-    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605105061403" />
+    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605445217442" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603718461965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -269,51 +288,51 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="1029" height="135" key="GridCell.Tab.0.bottom" timestamp="1605111687935">
+    <state width="914" height="195" key="GridCell.Tab.0.bottom" timestamp="1605449782022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604927968260" />
-    <state width="1029" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605111687935" />
-    <state width="1029" height="135" key="GridCell.Tab.0.center" timestamp="1605111687935">
+    <state width="914" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605449782022" />
+    <state width="914" height="195" key="GridCell.Tab.0.center" timestamp="1605449782022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604927968259" />
-    <state width="1029" height="135" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605111687935" />
-    <state width="1029" height="135" key="GridCell.Tab.0.left" timestamp="1605111687935">
+    <state width="914" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605449782022" />
+    <state width="914" height="195" key="GridCell.Tab.0.left" timestamp="1605449782022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604927968259" />
-    <state width="1029" height="135" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605111687935" />
-    <state width="1029" height="135" key="GridCell.Tab.0.right" timestamp="1605111687935">
+    <state width="914" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605449782022" />
+    <state width="914" height="195" key="GridCell.Tab.0.right" timestamp="1605449782022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604927968260" />
-    <state width="1029" height="135" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605111687935" />
-    <state width="1029" height="135" key="GridCell.Tab.1.bottom" timestamp="1605111687935">
+    <state width="914" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605449782022" />
+    <state width="1159" height="229" key="GridCell.Tab.1.bottom" timestamp="1605177023880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="119" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604912448243" />
-    <state width="1029" height="135" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605111687935" />
-    <state width="1029" height="135" key="GridCell.Tab.1.center" timestamp="1605111687935">
+    <state width="1159" height="229" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605177023880" />
+    <state width="1159" height="229" key="GridCell.Tab.1.center" timestamp="1605177023879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="119" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604912448243" />
-    <state width="1029" height="135" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605111687935" />
-    <state width="1029" height="135" key="GridCell.Tab.1.left" timestamp="1605111687935">
+    <state width="1159" height="229" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605177023879" />
+    <state width="1159" height="229" key="GridCell.Tab.1.left" timestamp="1605177023879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="119" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604912448242" />
-    <state width="1029" height="135" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605111687935" />
-    <state width="1029" height="135" key="GridCell.Tab.1.right" timestamp="1605111687935">
+    <state width="1159" height="229" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605177023879" />
+    <state width="1159" height="229" key="GridCell.Tab.1.right" timestamp="1605177023880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="119" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604912448243" />
-    <state width="1029" height="135" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605111687935" />
-    <state x="272" y="20" width="916" height="708" key="SettingsEditor" timestamp="1604904901721">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1159" height="229" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605177023880" />
+    <state x="662" y="139" width="916" height="708" key="SettingsEditor" timestamp="1605444150728">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="20" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604904901721" />
-    <state x="662" y="139" width="998" height="714" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604843746750" />
+    <state x="662" y="139" width="998" height="714" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605444150728" />
     <state x="1076" y="289" width="540" height="524" key="StructurePopup" timestamp="1604671531632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,30 +366,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604410747059" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1605098615579">
+    <state x="136" y="244" key="run.anything.popup" timestamp="1605170869072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605098615579" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1605111028324">
+    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605170869072" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1605444234156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605111028324" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605444234156" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Array.java</url>
-          <line>77</line>
-          <properties class="Array.Work01.TestTwo" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="6" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/ArrayTwo.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaStudy$Test__1_.ic" NAME="Test (1) Coverage Results" MODIFIED="1605173080239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Array.Work01.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaStudy$LoginFrame.ic" NAME="LoginFrame Coverage Results" MODIFIED="1604918703041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Frame.*</FILTER>
     </SUITE>

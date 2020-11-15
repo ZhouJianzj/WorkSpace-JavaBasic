@@ -1,13 +1,14 @@
 package Array.Work01;
 
 /**
- * @ClassName Main
+ * @ClassName TestT
  * @Description TODO
- * @Author zhoujian
- * @Date 2020/11/9
+ * @Author
+ * @Date 2020/11/12
  **/
-public class Main {
+public class TestT {
     public static void main(String[] args) {
+        int[][] a = new int[2][2];
 
     }
 }
