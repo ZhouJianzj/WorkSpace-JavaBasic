@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Object01/utils/JdbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArraysUtil/ArraysTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArraysUtil/ArraysTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/ArrayTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/TestT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/InterfaceJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/JavaProgrammer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/MySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/Work/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/Work/TeacherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/work01/Teacher01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Test/Test02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/Test/test01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -87,52 +87,27 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaProgrammer">
-    <configuration name="ArraysTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ArraysUtil.ArraysTest01" />
+  <component name="RunManager" selected="Application.CollectionIterator">
+    <configuration name="Collection01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection01" />
       <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.ArraysUtil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ArraysUtil.ArraysTest02" />
+    <configuration name="CollectionIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionIterator" />
       <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.ArraysUtil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaProgrammer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Jbdc.JavaProgrammer" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Jbdc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javadaily.Object01.utils.JdbcUtil" />
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasic.week6.MapTest" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javadaily.Object01.utils.*" />
+          <option name="PATTERN" value="JavaBasic.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Work01.Test" />
-      <module name="ZhouJian" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasic.week6.StudentTest" />
+      <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.Work01.*" />
+          <option name="PATTERN" value="JavaBasic.week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasic.week6.Work.TeacherTest" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBasic.week6.Work.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.ArraysTest01" />
-      <item itemvalue="Application.ArraysTest02" />
-      <item itemvalue="Application.JdbcUtil" />
-      <item itemvalue="Application.JavaProgrammer" />
+      <item itemvalue="Application.StudentTest" />
+      <item itemvalue="Application.MapTest" />
+      <item itemvalue="Application.TeacherTest" />
+      <item itemvalue="Application.Collection01" />
+      <item itemvalue="Application.CollectionIterator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaProgrammer" />
-        <item itemvalue="Application.JdbcUtil" />
-        <item itemvalue="Application.ArraysTest02" />
-        <item itemvalue="Application.ArraysTest01" />
-        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.CollectionIterator" />
+        <item itemvalue="Application.Collection01" />
+        <item itemvalue="Application.TeacherTest" />
+        <item itemvalue="Application.MapTest" />
+        <item itemvalue="Application.StudentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +203,8 @@
       <workItem from="1605091839280" duration="17751000" />
       <workItem from="1605168477457" duration="7070000" />
       <workItem from="1605433538919" duration="7480000" />
+      <workItem from="1605503531821" duration="12771000" />
+      <workItem from="1605530629865" duration="5996000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -242,6 +232,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Day21" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="843" y="235" key="#Inspections" timestamp="1605534678872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="843" y="235" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1605534678872" />
     <state x="609" y="231" key="#Project_Structure" timestamp="1604212035529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -254,24 +248,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605097783377" />
-    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1605445217442">
+    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1605531071102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="203" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604911975913" />
-    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605445217442" />
+    <state x="513" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1605516040979" />
+    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605531071102" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603718461965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603718461965" />
-    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604736664753">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605504454175">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1604736664753" />
+    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1605503891333" />
+    <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1605504454175" />
     <state x="894" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604504660775" />
     <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604407522152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1604407522152" />
+    <state x="364" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605533655530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="364" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605533655530" />
     <state x="1008" y="212" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1605111010612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -288,26 +288,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="914" height="195" key="GridCell.Tab.0.bottom" timestamp="1605449782022">
+    <state width="809" height="194" key="GridCell.Tab.0.bottom" timestamp="1605536296852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604927968260" />
-    <state width="914" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605449782022" />
-    <state width="914" height="195" key="GridCell.Tab.0.center" timestamp="1605449782022">
+    <state width="668" height="2" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605517135448" />
+    <state width="809" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605536296852" />
+    <state width="668" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605519954157" />
+    <state width="809" height="194" key="GridCell.Tab.0.center" timestamp="1605536296851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604927968259" />
-    <state width="914" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605449782022" />
-    <state width="914" height="195" key="GridCell.Tab.0.left" timestamp="1605449782022">
+    <state width="668" height="2" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605517135447" />
+    <state width="809" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605536296851" />
+    <state width="668" height="2" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605519954157" />
+    <state width="809" height="194" key="GridCell.Tab.0.left" timestamp="1605536296851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604927968259" />
-    <state width="914" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605449782022" />
-    <state width="914" height="195" key="GridCell.Tab.0.right" timestamp="1605449782022">
+    <state width="668" height="2" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605517135447" />
+    <state width="809" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605536296851" />
+    <state width="668" height="2" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605519954157" />
+    <state width="809" height="194" key="GridCell.Tab.0.right" timestamp="1605536296852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604927968260" />
-    <state width="914" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605449782022" />
+    <state width="668" height="2" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605517135448" />
+    <state width="809" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605536296852" />
+    <state width="668" height="2" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605519954157" />
     <state width="1159" height="229" key="GridCell.Tab.1.bottom" timestamp="1605177023880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -337,6 +345,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1076" y="289" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604671531632" />
+    <state x="497" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605504100247">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="497" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605504100247" />
     <state x="974" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604919658255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -346,9 +358,10 @@
     </state>
     <state x="858" y="224" width="465" height="280" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1604908546639" />
     <state x="1206" y="380" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604840228783" />
-    <state x="663" y="92" width="954" height="801" key="dock-window-1" timestamp="1605102228363">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="0" y="0" width="612" height="641" key="dock-window-1" timestamp="1605511748539">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="0" y="0" width="612" height="641" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1605511748539" />
     <state x="663" y="92" width="954" height="801" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1605102228363" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-2" timestamp="1604502952082">
       <screen x="0" y="0" width="1920" height="1040" />
