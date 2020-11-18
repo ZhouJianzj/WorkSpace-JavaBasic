@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArraysUtil/ArrayTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArraysUtil/ArraysSelected01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArraysUtil/ArraysSelected02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArraysUtil/UserArraysUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/StringClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/CollectionIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Array/ArrayMethod/MaoPaoPaiXu.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +82,26 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collection05">
-    <configuration name="Collection02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionPractical.Collection02" />
+  <component name="RunManager" selected="Application.ArraysSelected01">
+    <configuration name="ArrayTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.ArraysUtil.ArrayTest03" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionPractical.*" />
+          <option name="PATTERN" value="Array.ArraysUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysSelected01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.ArraysUtil.ArraysSelected01" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.ArraysUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,27 +148,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionPractical.CollectionIterator" />
-      <module name="ZhouJian" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.CollectionIterator" />
-      <item itemvalue="Application.Collection02" />
       <item itemvalue="Application.Collection03" />
       <item itemvalue="Application.Collection04" />
       <item itemvalue="Application.Collection05" />
+      <item itemvalue="Application.ArrayTest03" />
+      <item itemvalue="Application.ArraysSelected01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysSelected01" />
+        <item itemvalue="Application.ArrayTest03" />
         <item itemvalue="Application.Collection05" />
         <item itemvalue="Application.Collection04" />
         <item itemvalue="Application.Collection03" />
-        <item itemvalue="Application.Collection02" />
-        <item itemvalue="Application.CollectionIterator" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +214,8 @@
       <workItem from="1605530629865" duration="6595000" />
       <workItem from="1605573261662" duration="18000" />
       <workItem from="1605610937538" duration="5217000" />
+      <workItem from="1605625030757" duration="386000" />
+      <workItem from="1605679320333" duration="6276000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -261,12 +269,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603718461965" />
-    <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605504454175">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605625200220">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1605503891333" />
     <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1605504454175" />
-    <state x="894" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604504660775" />
+    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605625200220" />
     <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604407522152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -291,33 +299,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="1143" height="215" key="GridCell.Tab.0.bottom" timestamp="1605616974922">
+    <state width="1143" height="401" key="GridCell.Tab.0.bottom" timestamp="1605683939464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604927968260" />
     <state width="668" height="2" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605517135448" />
-    <state width="1143" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605616974922" />
+    <state width="1143" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605683939464" />
     <state width="668" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605519954157" />
-    <state width="1143" height="215" key="GridCell.Tab.0.center" timestamp="1605616974922">
+    <state width="1143" height="401" key="GridCell.Tab.0.center" timestamp="1605683939464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604927968259" />
     <state width="668" height="2" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605517135447" />
-    <state width="1143" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605616974922" />
+    <state width="1143" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605683939464" />
     <state width="668" height="2" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605519954157" />
-    <state width="1143" height="215" key="GridCell.Tab.0.left" timestamp="1605616974922">
+    <state width="1143" height="401" key="GridCell.Tab.0.left" timestamp="1605683939463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604927968259" />
     <state width="668" height="2" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605517135447" />
-    <state width="1143" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605616974922" />
+    <state width="1143" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605683939463" />
     <state width="668" height="2" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605519954157" />
-    <state width="1143" height="215" key="GridCell.Tab.0.right" timestamp="1605616974922">
+    <state width="1143" height="401" key="GridCell.Tab.0.right" timestamp="1605683939464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604927968260" />
     <state width="668" height="2" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605517135448" />
-    <state width="1143" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605616974922" />
+    <state width="1143" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605683939464" />
     <state width="668" height="2" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605519954157" />
     <state width="1159" height="229" key="GridCell.Tab.1.bottom" timestamp="1605177023880">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -348,6 +356,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1076" y="289" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604671531632" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1605688815119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1605688815119" />
     <state x="497" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605504100247">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -386,10 +398,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605170869072" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1605614696688">
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1605687888311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605614696688" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605687888311" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -398,11 +410,6 @@
           <url>file://$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/ArrayTwo.java</url>
           <line>31</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection01.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
