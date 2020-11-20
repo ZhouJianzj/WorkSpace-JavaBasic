@@ -32,7 +32,7 @@ public class TeacherTest {
         set.add(t3);
         set.add(t2);
         set.add(t1);
-        System.out.println(set);
+        System.out.println();
 
     }
 }
