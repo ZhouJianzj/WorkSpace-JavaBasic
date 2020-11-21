@@ -1,5 +1,7 @@
 package StringMethods;
 
+import jdk.nashorn.internal.runtime.regexp.joni.Regex;
+
 import java.sql.SQLOutput;
 
 import static com.sun.xml.internal.bind.v2.schemagen.Util.equal;
@@ -60,7 +62,32 @@ public class StringConstruct  {
         System.out.println();
         System.out.println("https://www.javascript.com".indexOf(".com"));
 
+//        split 后面跟的是一个正则表达式 拆分字符串，返回的是一个字符型数组 String[]
+        String[] split = "1999-06-27".split("-");
+        for (int i = 0;i<split.length;i++) {
+            System.out.print(split[i] + " ");
+        }
+//       替换的使用replace
+        System.out.println("zhoujianzhoujianzhoujianzhoujian".replace("zhoujian", "周健"));
 
-//        
+
+//        startsWith 表示的是以什么开始的字符串，返回值是一个boolean
+        System.out.println("http://www.zhoujian.com".startsWith("https://"));
+
+//        截取字符串 subString
+        System.out.println("https://www.baidu.com".substring(8, 11));
+
+
+        char[] chars = "zhoujian".toCharArray();
+            for (int i = 0;i<chars.length;i++){
+            System.out.println(chars[i]);
+        }
+
+//       字符串转换大小写 toLowerCase  toUpperCase
+        System.out.println("zhoujian".toUpperCase());
+        System.out.println("ZHOUJIAN".toLowerCase());
+
+//        trim方法是去除字符串的前后的空白的
+
     }
 }
