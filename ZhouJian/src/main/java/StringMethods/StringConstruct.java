@@ -89,5 +89,18 @@ public class StringConstruct  {
 
 //        trim方法是去除字符串的前后的空白的
 
+//     String.valueOf((需要转换成字符串的数据)new Students())
+//      注意：当需要转换的数据是一个引用的时候，没有OverRide方法的时候就会是一个内存地址
+//      valueOf方法当中时调用你new的类的toString方法的，但是你需要给一个对象转换成字符串就需要重写toString方法
+
+        String string = String.valueOf(new Student());
+        System.out.println(string);
+
+    }
+}
+class Student{
+    @Override
+    public String toString() {
+        return "你是一个好学生";
     }
 }
