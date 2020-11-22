@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/StringMethods/StringBufferTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/StringMethods/StringBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Package/Description" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Package/IntegerConstruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Package/JavaInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/StringMethods/StringConstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/StringMethods/StringConstruct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +79,13 @@
       <recent name="D:\workspace\ZhouJian\src\main\java\Frame" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringBuilderTest">
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DaiDuTextPratice.First" />
+  <component name="RunManager" selected="Application.IntegerConstruction">
+    <configuration name="IntegerConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package.IntegerConstruction" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DaiDuTextPratice.*" />
+          <option name="PATTERN" value="Package.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DaiDuTextPratice.Second" />
+    <configuration name="JavaInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package.JavaInteger" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DaiDuTextPratice.*" />
+          <option name="PATTERN" value="Package.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,18 +147,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.StringConstruct" />
-      <item itemvalue="Application.First" />
-      <item itemvalue="Application.Second" />
       <item itemvalue="Application.StringBufferTest01" />
       <item itemvalue="Application.StringBuilderTest" />
+      <item itemvalue="Application.JavaInteger" />
+      <item itemvalue="Application.IntegerConstruction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerConstruction" />
+        <item itemvalue="Application.JavaInteger" />
         <item itemvalue="Application.StringBuilderTest" />
         <item itemvalue="Application.StringBufferTest01" />
         <item itemvalue="Application.StringConstruct" />
-        <item itemvalue="Application.Second" />
-        <item itemvalue="Application.First" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +220,7 @@
       <workItem from="1605878542694" duration="5991000" />
       <workItem from="1605944733777" duration="3754000" />
       <workItem from="1605969713268" duration="5632000" />
+      <workItem from="1606037393813" duration="4799000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -259,10 +260,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="29" width="1092" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604678370855" />
-    <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605097783377">
+    <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606053884605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605097783377" />
+    <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606053884605" />
     <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1605970971007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -303,33 +304,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="1090" height="184" key="GridCell.Tab.0.bottom" timestamp="1605975584743">
+    <state width="1090" height="184" key="GridCell.Tab.0.bottom" timestamp="1606053604576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604927968260" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605713359540" />
-    <state width="1090" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605975584743" />
+    <state width="1090" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606053604576" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="1090" height="184" key="GridCell.Tab.0.center" timestamp="1605975584742">
+    <state width="1090" height="184" key="GridCell.Tab.0.center" timestamp="1606053604576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604927968259" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605713359540" />
-    <state width="1090" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605975584742" />
+    <state width="1090" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606053604576" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="1090" height="184" key="GridCell.Tab.0.left" timestamp="1605975584742">
+    <state width="1090" height="184" key="GridCell.Tab.0.left" timestamp="1606053604575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604927968259" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605713359540" />
-    <state width="1090" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605975584742" />
+    <state width="1090" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606053604575" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
-    <state width="1090" height="184" key="GridCell.Tab.0.right" timestamp="1605975584743">
+    <state width="1090" height="184" key="GridCell.Tab.0.right" timestamp="1606053604576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604927968260" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605713359540" />
-    <state width="1090" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605975584743" />
+    <state width="1090" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606053604576" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1877" height="242" key="GridCell.Tab.1.bottom" timestamp="1605886665205">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -398,10 +399,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604410747059" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1605170869072">
+    <state x="136" y="244" key="run.anything.popup" timestamp="1606053436722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605170869072" />
+    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606053436722" />
     <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1605972258863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

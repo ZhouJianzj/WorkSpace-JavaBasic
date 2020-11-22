@@ -1,0 +1,14 @@
+为什么需要引入8个包装的基本数据类型呢？
+    因为当一个方法的引入值是一个Object数据类型的时候，你需要输入别的数据类型的就没得
+    办法去输入，可以见下面的例子
+            public class A{
+                public static void main(String[] args){
+                        doSome("你");
+                        doSome(123);
+                }
+                当你需要到输入数字的话就不可以输入，所以就引入了8种数据类型的
+                包装类型，这些包装类型呢都是继承Object类型的所以当输入是一个Integer
+                类型的时候就体现了多态，向下转型的体现就看出来了
+                public void doSome(Object object){}
+
+            }
