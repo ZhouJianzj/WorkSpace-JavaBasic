@@ -6,8 +6,12 @@
 
     <groupId>com.ZhouJian</groupId>
     <artifactId>ZhouJian</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-<dependencies>
+    <modules>
+        <module>Project</module>
+    </modules>
+    <dependencies>
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
         <groupId>mysql</groupId>

@@ -1,4 +1,4 @@
-package Package;
+package Package.Integer;
 
 /**
  * @ClassName IntegerConsstruction
