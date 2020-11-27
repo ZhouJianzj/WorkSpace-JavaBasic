@@ -13,9 +13,6 @@ public class ShuiJiDianMIngSystem {
     public static void main(String[] args) {
         RandomTest();
     }
-
-
-
     public static void RandomTest() {
 //        生成一个数组来存储100个学生
         int[] count = new int[100];
@@ -36,7 +33,7 @@ public class ShuiJiDianMIngSystem {
                     count[i] = -2;
                     System.out.println(student);
                 } else {
-//                        RandomTest();
+//        问题出现在当出现了重复的元素的时候就会缺少一个元素的输出
                 }
             }
         }
