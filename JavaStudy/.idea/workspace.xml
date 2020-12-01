@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/DateFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/DiGuiChuangJianWenJianJia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/DownLoadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/FileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/ShuRuWenZiDaoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/ThreeLianDong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Package/enumTest/EnumTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Package/number/ShuiJiDianMing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Package/number/ShuiJiDianMing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +79,13 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShuiJiDianMing">
-    <configuration name="DateFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasic.week7.DateFileTest" />
+  <component name="RunManager" selected="Application.EnumTest01">
+    <configuration name="EnumTes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javadaily.Day14.EnumTes" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasic.week7.*" />
+          <option name="PATTERN" value="Javadaily.Day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiGuiChuangJianWenJianJia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasic.week7.DiGuiChuangJianWenJianJia" />
-      <module name="JavaStudy" />
+    <configuration name="EnumTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Package.enumTest.EnumTest01" />
+      <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasic.week7.*" />
+          <option name="PATTERN" value="Package.enumTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DateFileTest" />
-      <item itemvalue="Application.DiGuiChuangJianWenJianJia" />
       <item itemvalue="Application.ThreeLianDong" />
       <item itemvalue="Application.ShuRuWenZiDaoFile" />
       <item itemvalue="Application.ShuiJiDianMing" />
+      <item itemvalue="Application.EnumTes" />
+      <item itemvalue="Application.EnumTest01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumTest01" />
+        <item itemvalue="Application.EnumTes" />
         <item itemvalue="Application.ShuiJiDianMing" />
         <item itemvalue="Application.ShuRuWenZiDaoFile" />
         <item itemvalue="Application.ThreeLianDong" />
-        <item itemvalue="Application.DiGuiChuangJianWenJianJia" />
-        <item itemvalue="Application.DateFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +234,8 @@
       <workItem from="1606377688944" duration="45000" />
       <workItem from="1606713954422" duration="11234000" />
       <workItem from="1606733023224" duration="695000" />
-      <workItem from="1606738804938" duration="3939000" />
+      <workItem from="1606738804938" duration="6290000" />
+      <workItem from="1606790921293" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -295,12 +290,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603718461965" />
-    <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606714149357">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606745028622">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1606113808535" />
     <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1606714149357" />
-    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605879434281" />
+    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606745028622" />
     <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604407522152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,33 +321,33 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606111671977" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="1140" height="233" key="GridCell.Tab.0.bottom" timestamp="1606742529057">
+    <state width="795" height="158" key="GridCell.Tab.0.bottom" timestamp="1606749483768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="764" height="126" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606122106190" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1140" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606742529057" />
+    <state width="795" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606749483768" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="1140" height="233" key="GridCell.Tab.0.center" timestamp="1606742529057">
+    <state width="795" height="158" key="GridCell.Tab.0.center" timestamp="1606749483768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="764" height="126" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606122106190" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1140" height="233" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606742529057" />
+    <state width="795" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606749483768" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="1140" height="233" key="GridCell.Tab.0.left" timestamp="1606742529057">
+    <state width="795" height="158" key="GridCell.Tab.0.left" timestamp="1606749483768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="764" height="126" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606122106190" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1140" height="233" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606742529057" />
+    <state width="795" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606749483768" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
-    <state width="1140" height="233" key="GridCell.Tab.0.right" timestamp="1606742529057">
+    <state width="795" height="158" key="GridCell.Tab.0.right" timestamp="1606749483768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="764" height="126" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606122106190" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1140" height="233" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606742529057" />
+    <state width="795" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606749483768" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1877" height="242" key="GridCell.Tab.1.bottom" timestamp="1605886665205">
       <screen x="0" y="0" width="1920" height="1040" />
