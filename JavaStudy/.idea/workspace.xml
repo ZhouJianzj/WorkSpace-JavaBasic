@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Exception/ExceptionTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Exception/ExceptionTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Exception/ExceptionTest05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,33 +79,7 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionTest03">
-    <configuration name="EnumTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package.enumTest.EnumTest01" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Package.enumTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnumTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Package.enumTest.EnumTest02" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Package.enumTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Jdk8NewSpecial">
     <configuration name="ExceptionTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exception.ExceptionTest01" />
       <module name="ZhouJian" />
@@ -146,20 +119,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExceptionTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.ExceptionTest05" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdk8NewSpecial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.Jdk8NewSpecial" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.EnumTest01" />
-      <item itemvalue="Application.EnumTest02" />
       <item itemvalue="Application.ExceptionTest01" />
       <item itemvalue="Application.ExceptionTest02" />
       <item itemvalue="Application.ExceptionTest03" />
+      <item itemvalue="Application.ExceptionTest05" />
+      <item itemvalue="Application.Jdk8NewSpecial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Jdk8NewSpecial" />
+        <item itemvalue="Application.ExceptionTest05" />
         <item itemvalue="Application.ExceptionTest03" />
         <item itemvalue="Application.ExceptionTest02" />
         <item itemvalue="Application.ExceptionTest01" />
-        <item itemvalue="Application.EnumTest02" />
-        <item itemvalue="Application.EnumTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +238,7 @@
       <workItem from="1606790921293" duration="37000" />
       <workItem from="1606909674238" duration="1538000" />
       <workItem from="1606914785144" duration="5716000" />
-      <workItem from="1606959045641" duration="10102000" />
+      <workItem from="1606959045641" duration="13656000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -325,33 +324,33 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606111671977" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="799" height="359" key="GridCell.Tab.0.bottom" timestamp="1606994902870">
+    <state width="1443" height="231" key="GridCell.Tab.0.bottom" timestamp="1607000203493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="795" height="224" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606921576250" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="799" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606994902870" />
+    <state width="1443" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607000203493" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="799" height="359" key="GridCell.Tab.0.center" timestamp="1606994902870">
+    <state width="1443" height="231" key="GridCell.Tab.0.center" timestamp="1607000203492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="795" height="224" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606921576250" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="799" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606994902870" />
+    <state width="1443" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607000203492" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="799" height="359" key="GridCell.Tab.0.left" timestamp="1606994902870">
+    <state width="1443" height="231" key="GridCell.Tab.0.left" timestamp="1607000203489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="795" height="224" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606921576250" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="799" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606994902870" />
+    <state width="1443" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607000203489" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
-    <state width="799" height="359" key="GridCell.Tab.0.right" timestamp="1606994902870">
+    <state width="1443" height="231" key="GridCell.Tab.0.right" timestamp="1607000203493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="795" height="224" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606921576250" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="799" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606994902870" />
+    <state width="1443" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607000203493" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1877" height="242" key="GridCell.Tab.1.bottom" timestamp="1605886665205">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -421,10 +420,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604410747059" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1606963801925">
+    <state x="136" y="244" key="run.anything.popup" timestamp="1606997873400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606963801925" />
+    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606997873400" />
     <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1606915352409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
