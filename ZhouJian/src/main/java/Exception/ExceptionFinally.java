@@ -21,9 +21,12 @@ public class ExceptionFinally {
             e.printStackTrace();
         }catch (NullPointerException e){
             e.printStackTrace();
-        }finally {
+//            finally语句中的代码是最后执行的是一定执行的
+        } finally {
             try {
                 fileInputStream.close();
+//                这里的代码是不会执行的，当上面的异常发生的时候
+                System.out.println("你好呀！");
             } catch (IOException e) {
                 e.printStackTrace();
             }
