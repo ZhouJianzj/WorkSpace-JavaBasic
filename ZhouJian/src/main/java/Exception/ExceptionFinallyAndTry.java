@@ -44,9 +44,9 @@ class faceTest{
 //            这里的++i 和 i++ 的区别就是++i是先加加，要是换成i++返回的是100
 //            return ++i;    输出101
 //            详情请参考IAddAndAddI
-            return i++;
+            return ++i;
         }finally {
-            System.out.println("finally当中的i：" + i);
+            System.out.println("finally当中的i：" + ++i);
         }
     }
 }
