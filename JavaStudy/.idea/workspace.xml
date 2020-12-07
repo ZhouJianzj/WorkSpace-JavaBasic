@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/BaiDuSaleSticket/SaleTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/BaiDuSaleSticket/SaleTicket1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/Carousel/LineFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/Carousel/LineThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/Description" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/ImgThread/CarouselFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/ImgThread/ImageThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/ImgThread/TimeThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/ImgThread/TitleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/SaleTicketThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/QuYU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/FileInputStreamOrOutputStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/DateFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/DateFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/ShuRuWenZiDaoFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/ShuRuWenZiDaoFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +88,7 @@
       <recent name="D:\workspace\ZhouJian\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarouselFrame (1)">
+  <component name="RunManager" selected="Application.FileInputStreamOrOutputStream">
     <configuration name="CarouselFrame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasic.week8.ImgThread.CarouselFrame" />
       <module name="JavaStudy" />
@@ -114,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarouselFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasic.week8.Carousel.CarouselFrame" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasic.week8.Carousel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuYU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextClass.QuYU" />
+    <configuration name="FileInputStreamOrOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.FileInputStreamOrOutputStream" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TextClass.*" />
+          <option name="PATTERN" value="IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,20 +141,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exception.TestThrowNewException.Test" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exception.TestThrowNewException.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SaleTicket1" />
-      <item itemvalue="Application.CarouselFrame" />
-      <item itemvalue="Application.QuYU" />
       <item itemvalue="Application.SaleTicket" />
       <item itemvalue="Application.CarouselFrame (1)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.FileInputStreamOrOutputStream" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileInputStreamOrOutputStream" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.CarouselFrame (1)" />
         <item itemvalue="Application.SaleTicket" />
         <item itemvalue="Application.SaleTicket1" />
-        <item itemvalue="Application.QuYU" />
-        <item itemvalue="Application.CarouselFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +252,8 @@
       <workItem from="1607178065439" duration="6492000" />
       <workItem from="1607233948088" duration="3840000" />
       <workItem from="1607252477326" duration="11951000" />
-      <workItem from="1607318568828" duration="20216000" />
+      <workItem from="1607318568828" duration="22185000" />
+      <workItem from="1607349157942" duration="6418000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -350,54 +339,54 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606111671977" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="291" height="572" key="GridCell.Tab.0.bottom" timestamp="1607345509958">
+    <state width="641" height="888" key="GridCell.Tab.0.bottom" timestamp="1607355805796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="385" height="576" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607331811579" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="291" height="572" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607345509958" />
+    <state width="641" height="888" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607355805796" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="291" height="572" key="GridCell.Tab.0.center" timestamp="1607345509957">
+    <state width="641" height="888" key="GridCell.Tab.0.center" timestamp="1607355805796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="385" height="576" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607331811579" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="291" height="572" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607345509957" />
+    <state width="641" height="888" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607355805796" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="291" height="572" key="GridCell.Tab.0.left" timestamp="1607345509957">
+    <state width="641" height="888" key="GridCell.Tab.0.left" timestamp="1607355805795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="385" height="576" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607331811578" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="291" height="572" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607345509957" />
+    <state width="641" height="888" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607355805795" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
-    <state width="291" height="572" key="GridCell.Tab.0.right" timestamp="1607345509957">
+    <state width="641" height="888" key="GridCell.Tab.0.right" timestamp="1607355805796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="385" height="576" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607331811579" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="291" height="572" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607345509957" />
+    <state width="641" height="888" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607355805796" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="1323" height="150" key="GridCell.Tab.1.bottom" timestamp="1607323612048">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="150" key="GridCell.Tab.1.bottom" timestamp="1607348904731">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="150" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607323612048" />
-    <state width="1877" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607185589622" />
-    <state width="1323" height="150" key="GridCell.Tab.1.center" timestamp="1607323612047">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="150" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607348904731" />
+    <state width="1323" height="150" key="GridCell.Tab.1.center" timestamp="1607348904731">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="150" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607323612047" />
-    <state width="1877" height="242" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607185589621" />
-    <state width="1323" height="150" key="GridCell.Tab.1.left" timestamp="1607323612047">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="150" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607348904731" />
+    <state width="1323" height="150" key="GridCell.Tab.1.left" timestamp="1607348904731">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="150" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607323612047" />
-    <state width="1877" height="242" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607185589621" />
-    <state width="1323" height="150" key="GridCell.Tab.1.right" timestamp="1607323612048">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="150" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607348904731" />
+    <state width="1323" height="150" key="GridCell.Tab.1.right" timestamp="1607348904731">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="150" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607323612048" />
-    <state width="1877" height="242" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607185589621" />
+    <state width="1323" height="150" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607348904731" />
     <state x="611" y="280" width="998" height="733" key="SettingsEditor" timestamp="1607181512129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -454,11 +443,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604410747059" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1607341936786">
+    <state x="343" y="215" key="run.anything.popup" timestamp="1607355802709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="97" y="171" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607327856712" />
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607341936786" />
+    <state x="343" y="215" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607355802709" />
     <state x="450" y="253" width="672" height="475" key="search.everywhere.popup" timestamp="1607331094741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -473,11 +462,6 @@
           <url>file://$PROJECT_DIR$/../ZhouJian/src/main/java/Array/Work01/ArrayTwo.java</url>
           <line>31</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../ZhouJian/src/main/java/Exception/TestThrowNewException/PushAndPop.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
