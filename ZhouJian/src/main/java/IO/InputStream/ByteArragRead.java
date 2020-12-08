@@ -1,4 +1,4 @@
-package IO;
+package IO.InputStream;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -32,7 +32,13 @@ public class ByteArragRead {
 //            输出为2
             a = fileInputStream.read(bytes);
             System.out.println(a);
+
+//            byte数组转换成字符串
+//            如果使用下面注释掉的代码会是efcd，说明使用数组度的时候是覆盖的，当读取的字节数不满数组长度的时候，后面没有被覆盖的就还在
+            System.out.println(new String(bytes) + "改近++++++");
             System.out.println(new String(bytes,0,a));
+
+
 //            读完的时候返回值是-1,表示没有读到任何字节
             System.out.println(fileInputStream.read(bytes));
         } catch (IOException e) {
