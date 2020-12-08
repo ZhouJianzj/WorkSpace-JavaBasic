@@ -14,9 +14,10 @@ package Array.ArraysUtil;
 
 public class ArraysTest02 {
     public static void main(String[] args){
-       int[] a = {10,4,23,22,133};
-
+       int[] a = {190,187,167,99,67,53,45,35,25,15,5,2,1};
+//
        for (int i = a.length - 1;i> 0;i--){
+//
            for (int j = 0;j < i; j++){
                if(a[j] > a[j+1]) {
 //               需要引入一个空的存储的空间
