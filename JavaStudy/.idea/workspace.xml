@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/GaiJingByteArrayRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/OtherMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/ScannerAndFileOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/WriteAndAppend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/FileCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/ByteArragRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/ByteArragRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/FileInputStreamOrOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/FileInputStreamOrOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/ScannerAndFileOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/ScannerAndFileOS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +95,13 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScannerAndFileOS">
-    <configuration name="ByteArragRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.InputStream.ByteArragRead" />
+  <component name="RunManager" selected="Application.FileCopy">
+    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.OutputStream.FileCopy" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IO.InputStream.*" />
+          <option name="PATTERN" value="IO.OutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ByteArragRead" />
       <item itemvalue="Application.GaiJingByteArrayRead" />
       <item itemvalue="Application.OtherMethods" />
       <item itemvalue="Application.WriteAndAppend" />
       <item itemvalue="Application.ScannerAndFileOS" />
+      <item itemvalue="Application.FileCopy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileCopy" />
         <item itemvalue="Application.ScannerAndFileOS" />
         <item itemvalue="Application.WriteAndAppend" />
         <item itemvalue="Application.OtherMethods" />
         <item itemvalue="Application.GaiJingByteArrayRead" />
-        <item itemvalue="Application.ByteArragRead" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +268,7 @@
       <workItem from="1607413142063" duration="127000" />
       <workItem from="1607413329204" duration="124000" />
       <workItem from="1607413516183" duration="8643000" />
-      <workItem from="1607432035073" duration="6755000" />
+      <workItem from="1607432035073" duration="8860000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -360,33 +354,33 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607413106590" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="673" height="855" key="GridCell.Tab.0.bottom" timestamp="1607439761087">
+    <state width="590" height="648" key="GridCell.Tab.0.bottom" timestamp="1607442435322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="397" height="543" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607413267959" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="673" height="855" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607439761087" />
+    <state width="590" height="648" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607442435322" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="673" height="855" key="GridCell.Tab.0.center" timestamp="1607439761087">
+    <state width="590" height="648" key="GridCell.Tab.0.center" timestamp="1607442435321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="397" height="543" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607413267958" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="673" height="855" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607439761087" />
+    <state width="590" height="648" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607442435321" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
-    <state width="673" height="855" key="GridCell.Tab.0.left" timestamp="1607439761087">
+    <state width="590" height="648" key="GridCell.Tab.0.left" timestamp="1607442435321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="397" height="543" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607413267958" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="673" height="855" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607439761087" />
+    <state width="590" height="648" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607442435321" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
-    <state width="673" height="855" key="GridCell.Tab.0.right" timestamp="1607439761087">
+    <state width="590" height="648" key="GridCell.Tab.0.right" timestamp="1607442435322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="397" height="543" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607413267958" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="673" height="855" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607439761087" />
+    <state width="590" height="648" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607442435322" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1323" height="173" key="GridCell.Tab.1.bottom" timestamp="1607412449743">
       <screen x="0" y="0" width="1366" height="728" />

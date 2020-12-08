@@ -20,6 +20,7 @@ public class ScannerAndFileOS {
         FileOutputStream f = null;
         try {
              f = new FileOutputStream("C:\\Users\\Administrator\\Desktop\\AAA.txt", true);
+//             以数组的形式进行读取文本的信息
              f.write(s.getBytes());
         } catch (IOException e) {
             e.printStackTrace();
@@ -32,6 +33,7 @@ public class ScannerAndFileOS {
                 }
             }
         }
+        System.out.println("文本AAA.txt中的内容：");
         FileInputStream ff = null;
         try {
             ff = new FileInputStream("C:\\Users\\Administrator\\Desktop\\AAA.txt");
