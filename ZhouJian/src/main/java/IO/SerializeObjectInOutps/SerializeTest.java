@@ -1,9 +1,6 @@
 package IO.SerializeObjectInOutps;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
+import java.io.*;
 
 /**
  * @ClassName SerializeTest
@@ -15,7 +12,7 @@ import java.io.OutputStream;
  * @Date 2020/12/10
  **/
 public class SerializeTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Student s =new Student("zhoujian",88888888);
         ObjectOutputStream o = null;
         try {
@@ -30,6 +27,20 @@ public class SerializeTest {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+
+//          下面的代码是反序列化的实现
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("C:\\Users\\Administrator\\Desktop\\A.txt"));
+        try {
+            Object o1 = ois.readObject();
+            System.out.println(o1.toString());
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }finally {
+            if (ois != null) {
+                ois.close();
+            }
+
         }
     }
 }

@@ -13,6 +13,8 @@ import java.io.Serializable;
 public class Student implements Serializable {
     private  String name;
     private int no;
+//    transient 表示不参与序列化的中文意思是游离的
+    private transient int aa;
 
     public Student() {
     }
