@@ -6,6 +6,7 @@ import java.io.Serializable;
  * @ClassName Student
  * @Description TODO
  *                      需要被序列化的对象类需要实现标志性接口Serializable
+ *                      transient   表示游离的，不参加游离的
  *
  * @Author ZhouJian
  * @Date 2020/12/10

@@ -36,6 +36,8 @@ public class TitleThread implements Runnable {
     @Override
     public void run() {
         try {
+            File f = new File("C:\\Users\\Administrator\\Desktop\\AAA.txt");
+            f.createNewFile();
             context = getFileContext("C:\\Users\\Administrator\\Desktop\\AAA.txt");
         } catch (Exception e) {
             e.printStackTrace();

@@ -35,7 +35,7 @@ public class ImageThread implements Runnable {
 //            创建了链接
             HttpURLConnection conn = (HttpURLConnection)url.openConnection();
             conn.setRequestMethod("GET");
-            conn.setConnectTimeout(5000);
+            conn.setConnectTimeout(3000);
 //            得到链接某表的字节输入流
             InputStream is = conn.getInputStream();
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

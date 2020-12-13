@@ -26,6 +26,7 @@ public SaleTicketThread(){
                     }
                 }else{
                     System.out.println("票已经买完!");
+                    break;
                 }
             }
         }

@@ -1,4 +1,6 @@
-package ThreadStudy;
+package ThreadStudy.FirstThread;
+
+import ThreadStudy.FirstThread.MyThreadTest;
 
 /**
  * @ClassName ThreadTest

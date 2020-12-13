@@ -1,4 +1,4 @@
-package ThreadStudy;
+package ThreadStudy.FirstThread;
 
 /**
  * @ClassName MyThread

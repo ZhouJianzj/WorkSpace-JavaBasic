@@ -10,6 +10,9 @@ import JavaBasic.week8.BaiDuSaleSticket.SaleTicket;
  **/
 public class ThreadTest {
     public static void main(String[] args) {
+//        这里的不是启用的多线，只是调用saleTicketThread中的run方法
+        SaleTicketThread saleTickrtThread = new SaleTicketThread();
+        saleTickrtThread.run();
 
     }
 }
