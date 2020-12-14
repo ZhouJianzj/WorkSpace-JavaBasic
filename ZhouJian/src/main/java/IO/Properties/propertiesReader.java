@@ -26,6 +26,7 @@ public class propertiesReader {
             properties.load(reader);
 //            获取key 的value
             String property = properties.getProperty("UseName");
+            String  id = properties.getProperty("Value");
             System.out.println(property);
         } catch (IOException e) {
             e.printStackTrace();
