@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week9/ClockFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week9/Jdbc/description" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week9/Jdbc/jdbcDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week9/JoinMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week9/WindowsTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week9/Work/Student1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week9/Work/Student2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week9/Work/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/JoinMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/SetPriorityMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/SignBoolean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/YieldMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ThreadSafe/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ThreadSafe/OutMoneyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ThreadSafe/TestOutMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Properties/propertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Properties/propertiesReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/LiveTime" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/LiveTime" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/InterruptMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/InterruptMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +278,7 @@
       <workItem from="1607844970431" duration="4937000" />
       <workItem from="1607857314500" duration="14397000" />
       <workItem from="1607923204244" duration="13868000" />
-      <workItem from="1607940895348" duration="15975000" />
+      <workItem from="1607940895348" duration="16693000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
