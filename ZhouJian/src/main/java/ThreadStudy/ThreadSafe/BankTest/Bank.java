@@ -1,8 +1,9 @@
-package ThreadStudy.ThreadSafe;
+package ThreadStudy.ThreadSafe.BankTest;
 
 /**
  * @ClassName Bank
  * @Description TODO
+ *                      synchronized(){}锁的是{}里面的东西
  * @Author ZhouJian
  * @Date 2020/12/14
  **/

@@ -1,4 +1,6 @@
-package ThreadStudy.ThreadSafe;
+package ThreadStudy.ThreadSafe.BankTest;
+
+import ThreadStudy.ThreadSafe.BankTest.Bank;
 
 /**
  * @ClassName OutMoneyThead

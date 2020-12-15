@@ -1,4 +1,4 @@
-package ThreadStudy.ThreadSafe;
+package ThreadStudy.ThreadSafe.BankTest;
 
 /**
  * @ClassName TestOutMoney
