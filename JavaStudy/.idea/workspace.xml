@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ThreeRelizeThread/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/TimerTest/TimerTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/WaitAndNotifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ttt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/Config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/JiaYou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/Nihao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/PropertiesBianLian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/TestReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/TestReflect01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/ZhongGuo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/Reflect" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/ReflectTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/ReflectTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/ReflectTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/Work.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/LiveTime" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/LiveTime" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ThreadSafe/InterviewQuestion/TestInterviewQuestion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ThreadSafe/InterviewQuestion/TestInterviewQuestion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ThreadSafe/InterviewQuestion/TestSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ThreadSafe/InterviewQuestion/TestSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/WaitAndNotifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/WaitAndNotifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ttt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/ttt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +109,13 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.WaitAndNotifyTest">
-    <configuration name="TestOutMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadStudy.ThreadSafe.BankTest.TestOutMoney" />
+  <component name="RunManager" selected="Application.TestReflect">
+    <configuration name="ReflectTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectTest.ReflectTest03" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadStudy.ThreadSafe.BankTest.*" />
+          <option name="PATTERN" value="ReflectTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadStudy.ThreadSafe.InterviewQuestion.TestSynchronized" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectTest.Test" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadStudy.ThreadSafe.InterviewQuestion.*" />
+          <option name="PATTERN" value="ReflectTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynchronized1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadStudy.ThreadSafe.InterviewQuestion.TestSynchronized1" />
+    <configuration name="TestReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectTest.KuangJiaRelize.TestReflect" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadStudy.ThreadSafe.InterviewQuestion.*" />
+          <option name="PATTERN" value="ReflectTest.KuangJiaRelize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitAndNotifyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadStudy.WaitAndNotify.WaitAndNotifyTest" />
+    <configuration name="TestReflect01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectTest.KuangJiaRelize.TestReflect01" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadStudy.WaitAndNotify.*" />
+          <option name="PATTERN" value="ReflectTest.KuangJiaRelize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ttt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadStudy.ttt" />
+    <configuration name="aaaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectTest.aaaa" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadStudy.*" />
+          <option name="PATTERN" value="ReflectTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestSynchronized" />
-      <item itemvalue="Application.TestSynchronized1" />
-      <item itemvalue="Application.TestOutMoney" />
-      <item itemvalue="Application.ttt" />
-      <item itemvalue="Application.WaitAndNotifyTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ReflectTest03" />
+      <item itemvalue="Application.aaaa" />
+      <item itemvalue="Application.TestReflect" />
+      <item itemvalue="Application.TestReflect01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WaitAndNotifyTest" />
-        <item itemvalue="Application.ttt" />
-        <item itemvalue="Application.TestOutMoney" />
-        <item itemvalue="Application.TestSynchronized1" />
-        <item itemvalue="Application.TestSynchronized" />
+        <item itemvalue="Application.TestReflect" />
+        <item itemvalue="Application.TestReflect01" />
+        <item itemvalue="Application.ReflectTest03" />
+        <item itemvalue="Application.aaaa" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +300,9 @@
       <workItem from="1608027562054" duration="599000" />
       <workItem from="1608028536196" duration="12920000" />
       <workItem from="1608117431471" duration="11647000" />
-      <workItem from="1608191169657" duration="16486000" />
+      <workItem from="1608191169657" duration="16753000" />
+      <workItem from="1608249621526" duration="160000" />
+      <workItem from="1608253110095" duration="27199000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -337,18 +347,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="29" width="1092" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604678370855" />
-    <state x="231" y="228" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607935961621">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608302224625">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="231" y="228" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1607935961621" />
-    <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607850718499" />
-    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1608217995907">
+    <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608302224625" />
+    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1608277401360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607934020341" />
     <state x="513" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1605516040979" />
     <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-369.1080.1366.728@0.0.1920.1040" timestamp="1608217995907" />
-    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608135444092" />
+    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608277401360" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603718461965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -384,58 +394,58 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607927939394" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="1318" height="240" key="GridCell.Tab.0.bottom" timestamp="1608221722904">
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1608305758658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="735" height="132" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607937867674" />
+    <state width="834" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608249779879" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1318" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608221722904" />
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608305758658" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1318" height="240" key="GridCell.Tab.0.center" timestamp="1608221722904">
+    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1608305758658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="735" height="132" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607937867673" />
+    <state width="834" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608249779878" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1318" height="240" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608221722904" />
+    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608305758658" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1318" height="240" key="GridCell.Tab.0.left" timestamp="1608221722904">
+    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1608305758658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="735" height="132" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607937867673" />
+    <state width="834" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608249779878" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1318" height="240" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608221722904" />
+    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608305758658" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1318" height="240" key="GridCell.Tab.0.right" timestamp="1608221722904">
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1608305758658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="735" height="132" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607937867673" />
+    <state width="834" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608249779878" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1318" height="240" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608221722904" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608305758658" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1921" height="259" key="GridCell.Tab.1.bottom" timestamp="1607876930917">
+    <state width="1877" height="656" key="GridCell.Tab.1.bottom" timestamp="1608281256287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607412449743" />
-    <state width="1921" height="259" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607876930917" />
-    <state width="1921" height="259" key="GridCell.Tab.1.center" timestamp="1607876930917">
+    <state width="1877" height="656" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608281256287" />
+    <state width="1877" height="656" key="GridCell.Tab.1.center" timestamp="1608281256286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607412449743" />
-    <state width="1921" height="259" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607876930917" />
-    <state width="1921" height="259" key="GridCell.Tab.1.left" timestamp="1607876930917">
+    <state width="1877" height="656" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608281256286" />
+    <state width="1877" height="656" key="GridCell.Tab.1.left" timestamp="1608281256286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607412449743" />
-    <state width="1921" height="259" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607876930917" />
-    <state width="1921" height="259" key="GridCell.Tab.1.right" timestamp="1607876930917">
+    <state width="1877" height="656" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608281256286" />
+    <state width="1877" height="656" key="GridCell.Tab.1.right" timestamp="1608281256286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607412449743" />
-    <state width="1921" height="259" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607876930917" />
+    <state width="1877" height="656" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608281256286" />
     <state x="342" y="267" width="916" height="733" key="SettingsEditor" timestamp="1607693913365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -503,11 +513,11 @@
     <state x="97" y="171" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607776941388" />
     <state x="343" y="215" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-369.1080.1366.728@0.0.1920.1040" timestamp="1608217364729" />
     <state x="343" y="215" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607957842772" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1608207514871">
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1608305704259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="450" y="253" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607926574881" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608207514871" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608305704259" />
     <state x="633" y="375" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607235284644" />
     <state x="921" y="401" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607697767798">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -1,0 +1,24 @@
+反射机制
+    1、反射机制有什么用
+        通过反射机制可以操作字节码文件（可以读和写字节码文件）
+    2、反射机制相关重要的类有哪一些
+        java.lang.Class：代表整个字节码，代表一个类型代表整个类
+        java.lang.Method：代表方法的字节码中，代表类中的方法
+        java.lang.Constructor：代表构造方法字节码，代表类中的构造方法
+        java.lang.Field：代表属性字节码，代表类中的属性（成员变量：静态变量，实例变量）
+    3、怎么拿到一个class文件
+        第一种方式：使用静态的方法class.forName("文件的名字（需要具体的路径）");
+        第二种方法：Object中的getClass();方法，通过对象点的方式调用
+        第三种方法：每一个对象都有点class方法返回的是一个Object类型
+    4、是实例化一个
+        1、Class c = Class.forName("  ");
+           Class c = 对象类型.getClass();
+           然后使用 c.newInstance()方法返回一个Object类型的数据
+    5、是由反射机制实现对象的优点
+        1、键值对的形式存放class文件名字
+        2、使用FileReader创建输入流
+        3、创建存储对象的容器propertied相当于map数组在是由load方法去接取输入的
+            相当于管道连接容器pro.load（read），在使用pro.getProperty（"key"）
+            返回的是value
+        4、在使用value.class的方法去获取对象，对象点newInstance的方式去实例化，
+            返回的是一个Object类型
