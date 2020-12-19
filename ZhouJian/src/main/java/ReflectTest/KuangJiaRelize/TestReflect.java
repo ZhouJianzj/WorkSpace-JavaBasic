@@ -13,6 +13,12 @@ import java.util.Set;
 /**
  * @ClassName TestReflect
  * @Description TODO
+ *                              框架的小雏形
+ *                                  1、使用properties集合储存输入流读出的键值对
+ *                                  2、键值分离使用properties.stringPropertyNames()，key用set存储，遍历集合set得到key
+ *                                  3、使用properties.getProperty()获取value，也就是需要实例化的class
+ *                                  4、套着上面set集合的遍历循环一个一个的实例化，实例化返回的是Object对象
+ *                                  5、下一步考虑怎么把返回的类写出去形成
  * @Author ZhouJian
  * @Date 2020/12/18
  **/
@@ -52,8 +58,6 @@ public class TestReflect {
                     e.printStackTrace();
                 }
             }
-
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
