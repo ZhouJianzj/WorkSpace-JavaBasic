@@ -16,7 +16,7 @@ import java.util.Map;
  **/
 public class MapTest {
     public static void main(String[] args) {
-        Map<String ,Integer> map = new HashMap<>(8  );
+        Map<String ,Integer> map = new HashMap<>(12  );
         map.put("apple",8);
         map.put("pear",8);
         map.put("banana",8);

@@ -1,5 +1,7 @@
 package TextClass;
 
+import java.util.Scanner;
+
 /**
  * @ClassName Text9
  * @Description 作业的测试
@@ -14,6 +16,8 @@ public class Text9 {
 //          cat.y ==200;
 //        Tom.x = 300;
         Tom.showY();
+        Scanner s= new Scanner(System.in);
+
     }
 //}
 //class Tom{

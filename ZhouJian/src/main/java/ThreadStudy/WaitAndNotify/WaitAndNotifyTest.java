@@ -57,7 +57,7 @@ class Producter implements Runnable {
 //            同步代码块是wait释放锁的关键，锁的是仓库对象
             synchronized (list) {
 //              需要修改仓库的存储大小在这里设置，下面的消费不需要改
-                if (list.size() == 2) {
+                if (list.size() == 1) {
                     try {
 //                        暂停生产线程
                         list.wait();

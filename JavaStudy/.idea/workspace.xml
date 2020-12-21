@@ -5,24 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/GetPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/ReflectTest04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/resources/GetPath.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/PicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/getField/getField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/TestReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/KuangJiaRelize/TestReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week6/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Javadaily/Day01/Shuzu01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Javadaily/Day01/Shuzu01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Javadaily/Day01/Shuzu01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Javadaily/Day01/Shuzu01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Package/Date/Date01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Package/Date/Date01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/GetPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/GetPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/Reflect" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/Reflect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/ReflectTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/ReflectTest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/Text9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/Text9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/WaitAndNotifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/WaitAndNotifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/Work.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,22 +121,9 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetPath">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="GetPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReflectTest.GetPath" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ReflectTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReflectTest.ReflectTest03" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
@@ -140,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReflectTest.KuangJiaRelize.TestReflect" />
-      <module name="ZhouJian" />
+    <configuration name="Shuzu01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javadaily.Day01.Shuzu01" />
+      <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReflectTest.KuangJiaRelize.*" />
+          <option name="PATTERN" value="Javadaily.Day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +161,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReflect01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReflectTest.KuangJiaRelize.TestReflect01" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectTest.getField.Test" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReflectTest.KuangJiaRelize.*" />
+          <option name="PATTERN" value="ReflectTest.getField.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadStudy.WaitAndNotify.Work" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadStudy.WaitAndNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,19 +188,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReflectTest03" />
-      <item itemvalue="Application.TestReflect" />
-      <item itemvalue="Application.TestReflect01" />
       <item itemvalue="Application.ReflectTest04" />
       <item itemvalue="Application.GetPath" />
+      <item itemvalue="Application.Shuzu01" />
+      <item itemvalue="Application.Work" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetPath" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ReflectTest04" />
-        <item itemvalue="Application.TestReflect" />
-        <item itemvalue="Application.TestReflect01" />
-        <item itemvalue="Application.ReflectTest03" />
+        <item itemvalue="Application.Work" />
+        <item itemvalue="Application.Shuzu01" />
+        <item itemvalue="Application.GetPath" />
       </list>
     </recent_temporary>
   </component>
@@ -295,6 +316,8 @@
       <workItem from="1608249621526" duration="160000" />
       <workItem from="1608253110095" duration="29619000" />
       <workItem from="1608365591887" duration="5948000" />
+      <workItem from="1608527613140" duration="10326000" />
+      <workItem from="1608546143652" duration="10358000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -355,10 +378,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603718461965" />
-    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606915035583">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608539988433">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1606113808535" />
+    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1608539988433" />
     <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1606714149357" />
     <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606915035583" />
     <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1607943944428">
@@ -386,36 +409,36 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607927939394" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604934576633" />
-    <state width="1582" height="190" key="GridCell.Tab.0.bottom" timestamp="1608370640235">
+    <state width="1387" height="228" key="GridCell.Tab.0.bottom" timestamp="1608563907837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="834" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608249779879" />
+    <state width="1306" height="91" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608541298361" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1582" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608370640235" />
+    <state width="1387" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608563907837" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1582" height="190" key="GridCell.Tab.0.center" timestamp="1608370640235">
+    <state width="1387" height="228" key="GridCell.Tab.0.center" timestamp="1608563907836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="834" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608249779878" />
+    <state width="1306" height="91" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608541298360" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1582" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608370640235" />
+    <state width="1387" height="228" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608563907836" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1582" height="190" key="GridCell.Tab.0.left" timestamp="1608370640235">
+    <state width="1387" height="228" key="GridCell.Tab.0.left" timestamp="1608563907836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="834" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608249779878" />
+    <state width="1306" height="91" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608541298359" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1582" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608370640235" />
+    <state width="1387" height="228" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608563907836" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1582" height="190" key="GridCell.Tab.0.right" timestamp="1608370640235">
+    <state width="1387" height="228" key="GridCell.Tab.0.right" timestamp="1608563907836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="834" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608249779878" />
+    <state width="1306" height="91" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608541298360" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1582" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608370640235" />
+    <state width="1387" height="228" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608563907836" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
     <state width="1877" height="656" key="GridCell.Tab.1.bottom" timestamp="1608308722076">
@@ -447,10 +470,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1076" y="289" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604671531632" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1605688815119">
+    <state width="498" height="456" key="SwitcherDM" timestamp="1608563900168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1605688815119" />
+    <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1608563900168" />
     <state x="890" y="128" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607258698959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

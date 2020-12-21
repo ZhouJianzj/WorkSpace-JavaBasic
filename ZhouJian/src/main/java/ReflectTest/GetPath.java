@@ -32,8 +32,8 @@ public class GetPath {
 
 //        资源绑定器，获取配置文件中内容，使用下面方法的时候只能是点properties文件
 //        不可以带后缀
-        ResourceBundle resourceBundle = ResourceBundle.getBundle("");
+         ResourceBundle resourceBundle = ResourceBundle.getBundle("");
 //        返回的className的value值，之前的properties容器的什么的可以换成这的写法
-        resourceBundle.getString("className");
+        String value = resourceBundle.getString("className");
     }
 }

@@ -30,8 +30,8 @@ public class Date01 {
         System.out.println(simpleDateFormat.parse(date1));
 
 //      这里的方法时得到19700101到现在的秒数，目的是为了给程序计时
-        long time = System.currentTimeMillis();
-        System.out.println(time);
+                long time = System.currentTimeMillis();
+                System.out.println(time);
 //        见下一个class
-    }
-}
+                }
+                }

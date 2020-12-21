@@ -11,7 +11,7 @@
         第二种方法：Object中的getClass();方法，通过对象点的方式调用
         第三种方法：每一个对象都有点class方法返回的是一个Object类型
     4、是实例化一个
-        1、Class c = Class.forName("  ");
+         1、Class c = Class.forName("  ");
            Class c = 对象类型.getClass();
            然后使用 c.newInstance()方法返回一个Object类型的数据
     5、是由反射机制实现对象的优点
@@ -24,3 +24,11 @@
             返回的是一个Object类型
     6、注意：Class.forName()的执行会导致类加载，从而导致静态代码块的执行（JDBC需要用到）
     7、JDK中内置三个类加载器，启动类加载器，扩展类加载器，应用类加载器
+    8、算亲委派机制，启动类加载器为父加载器，扩展类加载器为母加载器，为了保证安全，优先执行启动加载器其次就是扩展
+        加载器再其次执行应用类加载器
+    9、ResourceBundle资源的绑定，里面有一个静态的方法getBundle(路径);在使用ResourceBundle.getString("className")
+        返回值是String的value
+    10、反射机制得到field也就是属性成员属性，就是静态变量、实例变量
+        使用Class.forName();的方法获取class，再使用getField();的方法获取捕获的属性返回是一个数组但是只能捕获的是public modifier
+        的属性，使用getDeclaredField();方法捕获到的是所有的属性，在使用getName();的方法得到参数的名字，在使用getType();
+        得到参数的类型，在使用getModifiers得到参数的modifier（修饰符）之所要加s是因为修饰符可能有多个

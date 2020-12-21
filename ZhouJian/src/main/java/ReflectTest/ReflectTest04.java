@@ -1,5 +1,9 @@
 package ReflectTest;
 
+import TextClass.StaticMethod;
+
+import java.net.SocketTimeoutException;
+
 /**
  * @ClassName ReflectTest04
  * @Description TODO
@@ -21,5 +25,14 @@ public class ReflectTest04 {
 class StaticDaiMaKuai{
     static{
         System.out.println("这是一段静态的代码块！");
+    }
+
+    public static void doOther(){
+//        不会执行类的方法
+        System.out.println("类方法");
+    }
+    public StaticDaiMaKuai(){
+//        没有newInstance的时候也不会执行
+        System.out.println("构造方法");
     }
 }

@@ -21,7 +21,7 @@ public class Work {
     }
 }
 class Number{
-     int a ;
+      int a ;
      public Number(){
          this.a = 1;
      }
