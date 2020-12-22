@@ -1,0 +1,24 @@
+JDBC的六大步骤
+    1、获取驱动
+    2、建立连接（使用完记得关闭）
+    3、获取操作对象
+    4、执行SQL语句
+    5、处理结果集
+    6、释放资源（Java和数据库之间的是进程的关系，资源消耗比较大）
+代码具体的实现
+    1、获取驱动
+        注意：这里的有一个java提供的Driver的接口和一个MySql的实现类。
+        url 说明
+            String url = "jbdc:mysql://127.0.0.1：3306/ZhouJian"
+            jdbc:mysql://  表示的协议，规定了之间文件传输的协议使得可以进行数据交换
+            127.0.0.1 ：表示是我的主机，这里可以改连接别的计算机的
+            3306 ：表示的Software的端口
+            ZhouJian ：表示是我的数据库的名字
+    2、建立连接
+           Connection conn = DriverManager.getConnection("url","user","passWord");
+    3、创建生命对象去执行sql语句
+            String sql  = "";
+            Statement statement = new Statement();
+            statement.executeQuery(sql);
+    4、处理结果集
+    5、释放资源

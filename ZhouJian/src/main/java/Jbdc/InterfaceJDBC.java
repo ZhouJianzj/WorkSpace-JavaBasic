@@ -1,6 +1,6 @@
 package Jbdc;
 
-/**
+/**q
  * @ClassName InterfaceJDBC
  * @Description TODO
  *              JDBC链接数据库的的基本的原理
