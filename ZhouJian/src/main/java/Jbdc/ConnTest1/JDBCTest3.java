@@ -18,6 +18,7 @@ public class JDBCTest3 {
     public static void main(String[] args) {
         Connection connection = null;
         Statement statement = null;
+        ResultSet resultSet = null;
         try {
             Class aClass = Class.forName("com.mysql.jdbc.Driver");
             String  url = "jdbc:mysql://127.0.0.1:3306/ZhouJian";
@@ -27,7 +28,7 @@ public class JDBCTest3 {
             statement= connection.createStatement();
             String sql = "select * from student1 ";
 //            声明中的executeQuery中的方法是执行的DML语句
-            ResultSet resultSet = statement.executeQuery(sql);
+           resultSet = statement.executeQuery(sql);
 //            执行select语句的时候返回的是一个结果集,next()方法是使得指针下移的，获得结果集就像exce表格一样的，next一下就到下一行
             while (resultSet.next()) {
 //                里面的参数指的是表格的列  从1开始的
@@ -42,6 +43,28 @@ public class JDBCTest3 {
 
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
+        }finally{
+            if ( resultSet != null) {
+                try {
+                    resultSet.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (statement != null) {
+                try{
+                    statement.close();
+                }catch(SQLException e){
+                    e.printStackTrace();
+                }
+            }
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
         }
 
     }
