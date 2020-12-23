@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Project/src/main/java/com/shy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/src/main/java/com/shy/config.Properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCConTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/config.Properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/test/java/config.Properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/target/classes/Jbdc/ConnTest1/config.Properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCConTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCConTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/JDBCdescription" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/JDBCdescription" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/Reflect" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ReflectTest/Reflect" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/resources/GetPath.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCTest3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +310,7 @@
       <workItem from="1608546143652" duration="10459000" />
       <workItem from="1608636469080" duration="9619000" />
       <workItem from="1608705224619" duration="6785000" />
-      <workItem from="1608712436307" duration="4771000" />
+      <workItem from="1608712436307" duration="5019000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
