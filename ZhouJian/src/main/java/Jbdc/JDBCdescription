@@ -6,6 +6,10 @@ JDBC的六大步骤
     5、处理结果集
     6、释放资源（Java和数据库之间的是进程的关系，资源消耗比较大）
 代码具体的实现
+    总结：在使用的时候一直到连接包括连接的时候都是DriverManager里面的静态方法的调用
+            DriverManager.registerDriver();
+            DriverManager.getConnection();
+            知道连接创建好之后开始创建声明对象的时候才开始使用 Connection的方法去创建声明对象的 conn.CreateConnection();
     1、获取驱动
         注意：这里的有一个java提供的Driver的接口和一个MySql的实现类。
         url 说明
@@ -20,5 +24,19 @@ JDBC的六大步骤
             String sql  = "";
             Statement statement = new Statement();
             statement.executeQuery(sql);
+        执行insert： 下面的方法是执行DML语句的方法 insert update delete
+            String sql = "insert into TableName（属性1，属性2，属性3） value（对应值1，对应值2，对应值3）"
+            statement.executeUpdate().var;//获取的返回值是int类型意思就是更新数据影响了表中多少天记录
+        执行delete：
     4、处理结果集
     5、释放资源
+第二种创建连接的方法（也是最常用的方法）
+    1、使用Class.forName()反射机制来执行里面的静态代码块，然后在实例化出来返回值是Object转型的方式转换成Driver
+        也就是java中Driver接口的一个实现类然后当作参数传入驱动管理的登记表中，然后在使用url user passWord建立连接
+结果集的处理
+       executeQuery(sql);这里的sql语句是DL语句
+       之后的使用的就是ResultSet resultSet = statement.get数据类型/String（列号/列的名字）;
+       还使用到next();的方法是ResultSet中的方法表示指针下移返回值是一个boolean类型的值
+executeQuery()和executeUpdate()操作的语言
+        executeQuery():执行的是DQL  也就是select
+        executeUpdate():执行的是MDL  也就是 inset into / deleter from /Update set

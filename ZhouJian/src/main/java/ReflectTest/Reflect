@@ -26,7 +26,7 @@
     7、JDK中内置三个类加载器，启动类加载器，扩展类加载器，应用类加载器
     8、算亲委派机制，启动类加载器为父加载器，扩展类加载器为母加载器，为了保证安全，优先执行启动加载器其次就是扩展
         加载器再其次执行应用类加载器
-    9、ResourceBundle资源的绑定，里面有一个静态的方法getBundle(路径);在使用ResourceBundle.getString("className")
+    9、ResourceBundle资源的绑定，里面有一个静态的方法getBundle(路径);在使e用RsourceBundle.getString("className")
         返回值是String的value
     10、反射机制得到field也就是属性成员属性，就是静态变量、实例变量
         使用Class.forName();的方法获取class，再使用getField();的方法获取捕获的属性返回是一个数组但是只能捕获的是public modifier
