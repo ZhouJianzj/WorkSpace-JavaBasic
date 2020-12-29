@@ -17,11 +17,8 @@ public class Test04 extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container contentPane = getContentPane();
 //        图片是放在JLabel中
-        URL url = Test04.class.getResource("src/main/java/Swing/img-1604549008355ae5281e2e76450ec60d656ce895d9002.jpg");
-
-        Icon icon = new ImageIcon(url.getPath());
         JLabel jLabel = new JLabel();
-        jLabel.setIcon(icon);
+        jLabel.setIcon(new ImageIcon("img/1.jpg"));
         contentPane.add(jLabel);
         setVisible(true);
     }
