@@ -8,6 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
 
 
 /**
@@ -18,7 +19,7 @@ import java.awt.event.ActionListener;
  **/
 public class login extends JFrame {
     JTextField usernameField = new JTextField("用户名");
-    JTextField passwordField = new JPasswordField();
+    JPasswordField passwordField = new JPasswordField("123456");
     JButton 重置Button = new JButton();
     JButton 登录Button = new JButton();
     public login() {
@@ -30,13 +31,14 @@ public class login extends JFrame {
         setLayout(null);
         Container contentPane = getContentPane();
         contentPane.add(usernameField);
-        usernameField.setBounds(20, 20, 100, 30);
+        usernameField.setBounds(20, 20, 200, 30);
         contentPane.add(passwordField);
-        passwordField.setBounds(20, 70, 100, 30);
+        passwordField.setEchoChar('\u2605');
+        passwordField.setBounds(20, 70, 200, 30);
         contentPane.add(重置Button);
-        重置Button.setBounds(20,120,30,30);
+        重置Button.setBounds(20,120,80,30);
         contentPane.add(登录Button);
-        登录Button.setBounds(70,120,30,30);
+        登录Button.setBounds(140,120,80,30);
         setVisible(true);
 
     }
@@ -50,7 +52,6 @@ public class login extends JFrame {
                     ResultEntity resultEntity = ServiceFactory.getAdminServiceInstance().checkLogin(username, password);
                     Admin admin = (Admin) resultEntity.getData();
                     JOptionPane.showMessageDialog(passwordField.getParent(), resultEntity.getMessage());
-                    if (resultEntity.getCode() == 0) {
                         switch (admin.getType()) {
                             case 0:
                                 login.this.dispose();
@@ -58,17 +59,21 @@ public class login extends JFrame {
                                 break;
                             case 1:
                                 login.this.dispose();
-                                new Linkman();
+                                try {
+                                    new Linkman();
+                                } catch (SQLException ex) {
+                                    ex.printStackTrace();
+                                }
                                 break;
                             case 2:
                                 login.this.dispose();
                                 new Client();
                                 break;
                         }
-                    } else {
+
                         usernameField.setText("");
                         passwordField.setText("");
-                    }
+
                 }
             });
 

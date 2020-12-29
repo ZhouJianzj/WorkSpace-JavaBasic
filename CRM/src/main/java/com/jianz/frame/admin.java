@@ -1,7 +1,14 @@
 package com.jianz.frame;
 
+import sun.security.util.Length;
+
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.SQLException;
+import java.util.Vector;
 
 /**
  * @ClassName admin
@@ -13,14 +20,28 @@ public class admin extends JFrame {
     public admin(){
         setTitle("admin");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(null);
-        setBounds(100,100,500,200);
-        setVisible(true);
+        setBounds(100,100,1200,600);
         Container contentPane = getContentPane();
-        JButton jButton = new JButton("按钮");
-        jButton.setBounds(100,100,100,40);
-        contentPane.add(jButton);
+        setLayout(null);
 
+
+//        创建绑定数据的按钮
+        JButton jb = new JButton("员工获取数据");
+        jb.setBounds(10,10,100,20);
+        contentPane.add(jb);
+        setVisible(true);
+
+//       数据导入的事件监听
+        jb.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    new Linkman();
+                } catch (SQLException ex) {
+                    ex.printStackTrace();
+                }
+            }
+        });
     }
 
     public static void main(String[] args) {

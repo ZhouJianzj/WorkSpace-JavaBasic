@@ -11,8 +11,9 @@ import javax.swing.*;
 public class Client extends JFrame {
     public Client(){
         setTitle("Client");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(200,200,1200,860);
+        JTable jTable = new JTable();
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
 

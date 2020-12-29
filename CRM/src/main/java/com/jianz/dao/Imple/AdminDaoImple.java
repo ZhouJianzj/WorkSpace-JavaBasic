@@ -19,12 +19,17 @@ import java.sql.SQLException;
     public class AdminDaoImple implements AdminDao {
         @Override
         public Admin checkLogin(String account) throws SQLException {
+//            加载驱动
             JdbcUtil jdbcUtil = JdbcUtil.getInitJdbcUtil();
+//            获取连接
             Connection connection = jdbcUtil.getConnection();
+//             sql语句
             String sql = "SELECT * FROM `admin` WHERE username = ? ";
             PreparedStatement pstmt = connection.prepareStatement(sql);
+
             pstmt.setString(1,account);
             ResultSet rs = pstmt.executeQuery();
+
             Admin admin = null;
             while (rs.next()) {
                 String id = rs.getString("id");

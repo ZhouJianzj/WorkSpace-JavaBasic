@@ -44,6 +44,7 @@ public class JdbcUtil {
      */
     static {
         try {
+//            forname方法会执行静态代码块，同样的原理这里的静态代码块也会再类加载的时候加载的方法区内存
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
