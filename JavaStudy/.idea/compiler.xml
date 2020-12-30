@@ -7,13 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MavenTest" />
+        <module name="PracticalTraining" />
         <module name="Project" />
-        <module name="JavaStudy" />
+        <module name="MyCRM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaStudy" target="1.8" />
       <module name="MavenTest" target="1.8" />
+      <module name="MyCRM" target="1.8" />
+      <module name="PracticalTraining" target="1.8" />
       <module name="Project" target="1.8" />
       <module name="untitled" target="1.8" />
       <module name="ZhouJian" target="1.8" />

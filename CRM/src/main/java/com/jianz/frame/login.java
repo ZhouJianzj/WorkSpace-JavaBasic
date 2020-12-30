@@ -59,11 +59,7 @@ public class login extends JFrame {
                                 break;
                             case 1:
                                 login.this.dispose();
-                                try {
-                                    new Linkman();
-                                } catch (SQLException ex) {
-                                    ex.printStackTrace();
-                                }
+                                new Linkman();
                                 break;
                             case 2:
                                 login.this.dispose();

@@ -37,16 +37,16 @@ private Object[][] vector1 = null;
        vector1 = new Object[linkMan.list.size()][vector.size()];
             for (int a = 0;a < linkMan.list.size();a++){
                 for (int b = 0;b < vector.size();b++){
-                   vector1[a][0] = ;
+
                 }
             }
 
-        DefaultTableModel dtm = new DefaultTableModel(vector1,vector);
+//        DefaultTableModel dtm = new DefaultTableModel(vector1,vector);
 //        创建表格
-        JTable jTable = new JTable(dtm);
+//        JTable jTable = new JTable(dtm);
 //        创建滚动面板
-        JScrollPane jScrollPane = new JScrollPane(jTable);
-        contentPane.add(jScrollPane);
+//        JScrollPane jScrollPane = new JScrollPane(jTable);
+//        contentPane.add(jScrollPane);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
 

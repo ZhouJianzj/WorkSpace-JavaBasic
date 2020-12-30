@@ -5,8 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CRM/CRM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_api_0_33_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_33_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_util_0_33_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ini4j_ini4j_0_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticalTraining/PracticalTraining.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/MyCRM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/ClientFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/LinkmanFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/adminFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Utils/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/resources/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/resources/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCRM/src/test/java/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Swing/Test14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRM/src/main/java/com/jianz/frame/Linkman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM/src/main/java/com/jianz/frame/Linkman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRM/src/main/java/com/jianz/frame/admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM/src/main/java/com/jianz/frame/admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRM/src/main/java/com/jianz/frame/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM/src/main/java/com/jianz/frame/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Swing/Test13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Swing/Test13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/target/classes/Jbdc/ConnTest1/config.Properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +133,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="275" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PracticalTraining" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyCRM/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -93,19 +144,22 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Array" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\ZhouJian\src\main\java\img" />
-      <recent name="D:\workspace\ZhouJian\src\main\java\Swing" />
-      <recent name="D:\workspace\ZhouJian\target\classes\Jbdc\ConnTest1" />
-      <recent name="D:\workspace\ZhouJian\src\main\java\Jbdc\ConnTest1" />
-      <recent name="D:\workspace\JavaStudy" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.java.com" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\MyCRM\src\main\resources" />
       <recent name="D:\workspace\Project\src\main\java\com\shy" />
       <recent name="D:\workspace\ZhouJian\src\main\java\Jbdc\ConnTest1" />
       <recent name="D:\workspace\ZhouJian\src\test\java" />
       <recent name="D:\workspace\ZhouJian\src\main\java\Package\Integer" />
-      <recent name="D:\workspace\JavaStudy\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\MyCRM\src\main\resources" />
+      <recent name="D:\workspace\MyCRM" />
+      <recent name="D:\workspace\ZhouJian\src\main\java\img" />
+      <recent name="D:\workspace\ZhouJian\src\main\java\Swing" />
+      <recent name="D:\workspace\ZhouJian\target\classes\Jbdc\ConnTest1" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -113,13 +167,13 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test12">
-    <configuration name="Test08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Swing.Test08" />
-      <module name="ZhouJian" />
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="ClientFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JFrame.ClientFrame" />
+      <module name="MyCRM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Swing.*" />
+          <option name="PATTERN" value="JFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +181,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Swing.Test09" />
-      <module name="ZhouJian" />
+    <configuration name="JdbcUtil (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.JdbcUtil" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Swing.*" />
+          <option name="PATTERN" value="Utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Swing.Test10" />
-      <module name="ZhouJian" />
+    <configuration name="JdbcUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utils.JdbcUtil" />
+      <module name="MyCRM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Swing.*" />
+          <option name="PATTERN" value="Utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Swing.Test11" />
-      <module name="ZhouJian" />
+    <configuration name="LinkmanFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JFrame.LinkmanFrame" />
+      <module name="MyCRM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Swing.*" />
+          <option name="PATTERN" value="JFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Swing.Test12" />
-      <module name="ZhouJian" />
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JFrame.Login" />
+      <module name="MyCRM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Swing.*" />
+          <option name="PATTERN" value="JFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,19 +233,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test08" />
-      <item itemvalue="Application.Test09" />
-      <item itemvalue="Application.Test10" />
-      <item itemvalue="Application.Test11" />
-      <item itemvalue="Application.Test12" />
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.JdbcUtil" />
+      <item itemvalue="Application.JdbcUtil (1)" />
+      <item itemvalue="Application.ClientFrame" />
+      <item itemvalue="Application.LinkmanFrame" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test12" />
-        <item itemvalue="Application.Test11" />
-        <item itemvalue="Application.Test10" />
-        <item itemvalue="Application.Test09" />
-        <item itemvalue="Application.Test08" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.ClientFrame" />
+        <item itemvalue="Application.LinkmanFrame" />
+        <item itemvalue="Application.JdbcUtil" />
+        <item itemvalue="Application.JdbcUtil (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +384,10 @@
       <workItem from="1609169873941" duration="59000" />
       <workItem from="1609203258261" duration="8730000" />
       <workItem from="1609215321691" duration="10031000" />
+      <workItem from="1609286732050" duration="6885000" />
+      <workItem from="1609295145149" duration="4704000" />
+      <workItem from="1609328611677" duration="7157000" />
+      <workItem from="1609335995848" duration="5171000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -369,6 +426,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="843" y="235" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1607698006091" />
+    <state x="756" y="170" key="#JdbcUtil_(1)" timestamp="1609336393982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="170" key="#JdbcUtil_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1609336393982" />
     <state x="955" y="72" key="#Notifications" timestamp="1607697427660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -387,31 +448,36 @@
     </state>
     <state x="231" y="228" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1607935961621" />
     <state x="324" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608302224625" />
-    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1608277401360">
+    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1609341017516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607934020341" />
     <state x="513" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1605516040979" />
     <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-369.1080.1366.728@0.0.1920.1040" timestamp="1608217995907" />
-    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608277401360" />
+    <state x="721" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609341017516" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603718461965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603718461965" />
-    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608539988433">
+    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609289935338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1608539988433" />
+    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1609289935338" />
     <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1606714149357" />
     <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606915035583" />
-    <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1607943944428">
+    <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1609333831861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1607943944428" />
+    <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1609333831861" />
     <state x="364" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607513310297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="364" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607513310297" />
+    <state x="474" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609342307358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609292052063" />
+    <state x="474" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609342307358" />
     <state x="1008" y="212" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1605111010612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -424,41 +490,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1048" y="240" key="ConfigureClientPropertiesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604839996921" />
-    <state x="526" y="108" key="FileChooserDialogImpl" timestamp="1609122371793">
+    <state x="526" y="108" key="FileChooserDialogImpl" timestamp="1609290013697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609122371793" />
+    <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609290013697" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608705302849" />
-    <state width="1247" height="172" key="GridCell.Tab.0.bottom" timestamp="1609230776473">
+    <state width="816" height="87" key="GridCell.Tab.0.bottom" timestamp="1609342328908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="406" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609212559149" />
+    <state width="1323" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609299855777" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1247" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609230776473" />
+    <state width="816" height="87" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609342328908" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1247" height="172" key="GridCell.Tab.0.center" timestamp="1609230776472">
+    <state width="816" height="87" key="GridCell.Tab.0.center" timestamp="1609342328907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="406" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609212559149" />
+    <state width="1323" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609299855776" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1247" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609230776472" />
+    <state width="816" height="87" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609342328907" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1247" height="172" key="GridCell.Tab.0.left" timestamp="1609230776472">
+    <state width="816" height="87" key="GridCell.Tab.0.left" timestamp="1609342328907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="406" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609212559149" />
+    <state width="1323" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609299855776" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1247" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609230776472" />
+    <state width="816" height="87" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609342328907" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1247" height="172" key="GridCell.Tab.0.right" timestamp="1609230776473">
+    <state width="816" height="87" key="GridCell.Tab.0.right" timestamp="1609342328907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1306" height="406" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609212559149" />
+    <state width="1323" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609299855777" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1247" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609230776473" />
+    <state width="816" height="87" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609342328907" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
     <state width="1306" height="406" key="GridCell.Tab.1.bottom" timestamp="1609212559150">
@@ -528,10 +594,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="758" y="398" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1366.728@0.0.1366.728" timestamp="1607328426011" />
-    <state x="34" y="0" key="new project wizard" timestamp="1609122484511">
+    <state x="34" y="0" key="new project wizard" timestamp="1609290031852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="34" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1609122484511" />
+    <state x="34" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1609290031852" />
     <state x="334" y="43" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603719248622" />
     <state x="664" y="322" width="716" height="586" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1608705312955">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -541,18 +607,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604410747059" />
-    <state x="343" y="215" width="672" height="677" key="run.anything.popup" timestamp="1609225566993">
+    <state x="343" y="215" width="672" height="677" key="run.anything.popup" timestamp="1609335242227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="180" width="672" height="715" key="run.anything.popup/0.0.1304.768@0.0.1304.768" timestamp="1607779947044" />
-    <state x="97" y="171" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607776941388" />
+    <state x="97" y="171" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1609299000238" />
     <state x="343" y="215" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-369.1080.1366.728@0.0.1920.1040" timestamp="1608217364729" />
-    <state x="343" y="215" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609225566993" />
-    <state x="450" y="253" width="672" height="475" key="search.everywhere.popup" timestamp="1609212254616">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="343" y="215" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609335242227" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1609338905869">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="450" y="253" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1609212254616" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609154934864" />
+    <state x="450" y="253" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1609297059398" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609338905869" />
     <state x="633" y="375" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607235284644" />
     <state x="921" y="401" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607697767798">
       <screen x="0" y="0" width="1920" height="1040" />

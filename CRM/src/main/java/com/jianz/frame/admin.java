@@ -35,11 +35,9 @@ public class admin extends JFrame {
         jb.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                try {
+
                     new Linkman();
-                } catch (SQLException ex) {
-                    ex.printStackTrace();
-                }
+
             }
         });
     }
