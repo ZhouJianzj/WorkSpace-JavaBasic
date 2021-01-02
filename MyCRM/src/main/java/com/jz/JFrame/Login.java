@@ -31,6 +31,7 @@ public class Login extends JFrame {
         Container contentPane = getContentPane();
         setSize(430,300);
         contentPane.add(jp);
+//        jp.setBackground(Color.BLACK);
         setResizable(false);
         jLabeluserName.setFont(new Font("楷体",Font.BOLD,15));
         jLabelpassword.setFont(new Font("楷体",Font.BOLD,15));
@@ -104,6 +105,20 @@ public class Login extends JFrame {
         jButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                char[] password1 = jPasswordFieldpassword.getPassword();
+                String password = String.valueOf(password1);
+                String text = jTextFielduserName.getText();
+//                这里的测试只是简单的规定的没有连接数据库的账户密码登陆测试
+                if (text.equals("zhoujian") ){
+                    if(password.equals("123456")){
+                            new adminFrame();
+                    } else{
+                        JOptionPane.showMessageDialog(jp,"输入的密码错误！");
+                    }
+                }else{
+                    JOptionPane.showMessageDialog(jp,"输入的账号错误");
+                }
+
 
             }
         });

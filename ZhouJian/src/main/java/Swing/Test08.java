@@ -30,6 +30,7 @@ public class Test08 extends JFrame {
 
         Container contentPane = getContentPane();
         contentPane.add(jComboBox);
+//        contentPane.setBackground(Color.BLACK);
 
         JButton jButton = new JButton("确定");
         jButton.setBounds(150,30,100,30);
