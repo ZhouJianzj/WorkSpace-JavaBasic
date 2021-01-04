@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.net.URL;
+import Entity.login;
+import Service.ImplementLoginService;
 
 /**
  * @ClassName Test02
@@ -105,18 +107,37 @@ public class Login extends JFrame {
         jButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                login login = new login();
+                String text = jTextFielduserName.getText();
                 char[] password1 = jPasswordFieldpassword.getPassword();
                 String password = String.valueOf(password1);
-                String text = jTextFielduserName.getText();
+//                设置login实体的参数
+                login.setUserName(text);
+                login.setPassWord(password);
+                if(text == null || password == null){
+                    JOptionPane.showMessageDialog(jp,"请输入用户名和密码！");
+                }
+
 //                这里的测试只是简单的规定的没有连接数据库的账户密码登陆测试
-                if (text.equals("zhoujian") ){
-                    if(password.equals("123456")){
+
+                if (new ImplementLoginService().checkedLogin(login)){
+                    switch (login.getType()){
+                        case "0" :
                             new adminFrame();
-                    } else{
-                        JOptionPane.showMessageDialog(jp,"输入的密码错误！");
+                            dispose();
+                            break;
+                        case "1":
+                            new LinkmanFrame();
+                            dispose();
+                            break;
+                        case "2":
+                            new ClientFrame();
+                            dispose();
+                            break;
                     }
+
                 }else{
-                    JOptionPane.showMessageDialog(jp,"输入的账号错误");
+                    JOptionPane.showMessageDialog(jp,"输入的账号或者密码错误");
                 }
 
 
