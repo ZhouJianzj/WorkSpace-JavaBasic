@@ -68,11 +68,8 @@ public class  adminFrame extends JFrame {
         jButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("nihao");
                 if (jComboBox.getSelectedItem().equals("员工表")){
-//                    contentPane.add(,BorderLayout.CENTER);
-                }else{
-                    System.out.println("nug");
+                    System.out.println("创建表格");
                 }
             }
         });

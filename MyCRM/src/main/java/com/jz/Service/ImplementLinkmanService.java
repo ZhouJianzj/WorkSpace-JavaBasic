@@ -2,7 +2,6 @@ package Service;
 
 import Utils.JdbcUtil;
 
-import javax.xml.bind.ValidationException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -15,7 +14,7 @@ import java.util.Vector;
  * @Author
  * @Date 2021/1/4
  **/
-public class ImplementLinkmanService implements Linkman {
+public class ImplementLinkmanService implements LinkmanService {
     public static Vector<Vector<Object>> data = new Vector<>();
     @Override
     public void search() {

@@ -6,7 +6,7 @@ package Service;
  * @Author
  * @Date 2021/1/4
  **/
-public interface Linkman {
+public interface LinkmanService {
     /**
      * 查询自己
      */

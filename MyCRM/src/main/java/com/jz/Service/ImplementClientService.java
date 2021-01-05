@@ -3,22 +3,65 @@ package Service;
 import Entity.Client_product;
 import Utils.JdbcUtil;
 
-import javax.xml.crypto.Data;
-import java.lang.reflect.Type;
-import java.sql.*;
+import javax.swing.*;
+import java.awt.*;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Vector;
 
 /**
  * @ClassName ImplementClientService
  * @Description TODO
  * @Author
- * @Date 2021/1/4
+ * @Date 2021/1/5
  **/
 public class ImplementClientService implements ClientService {
-    public static Vector<Vector<Object>> data =  new Vector<>();
+    public  Vector<Vector<Object>> data1 =  new Vector<>();
+    public  Vector<Vector<Object>> data = new Vector<>();
     @Override
-    public void search() {
-
+    public void search(String testSql) {
+//        StringBuffer sql = new StringBuffer();
+//        sql.append("select * from product where name = '");
+//        sql.append(testSql + "'");
+//        System.out.println(sql);
+//        JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
+//        Connection connection = initJdbcUtil.getConnection();
+//        Statement statement = null;
+//        ResultSet resultSet = null;
+//        try {
+//             statement = connection.createStatement();
+//             if (!sql.equals("' '")) {
+//                 resultSet = statement.executeQuery(String.valueOf(sql));
+//                 while (resultSet.next()) {
+//                     Vector<Object> vector = new Vector<>();
+//                     vector.add(resultSet.getString(1));
+//                     vector.add(resultSet.getString(2));
+//                     vector.add(resultSet.getString(3));
+//                     vector.add(resultSet.getString(4));
+//                     vector.add(resultSet.getString(5));
+//                     data.addElement(vector);
+//                 }
+//             }else {
+//                 System.out.println("没有输入");
+//             }
+//
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }finally{
+//            try {
+//                resultSet.close();
+//            } catch (SQLException e) {
+//                e.printStackTrace();
+//            }
+//            try {
+//                statement.close();
+//            } catch (SQLException e) {
+//                e.printStackTrace();
+//            }
+//            initJdbcUtil.closeConnection();
+//        }
     }
     /**
      * 建立数据连接
@@ -29,11 +72,11 @@ public class ImplementClientService implements ClientService {
         ResultSet resultSet = null;
         Statement statement = null;
         try {
-           initJdbcUtil = JdbcUtil.getInitJdbcUtil();
-           connection = initJdbcUtil.getConnection();
+            initJdbcUtil = JdbcUtil.getInitJdbcUtil();
+            connection = initJdbcUtil.getConnection();
             statement = connection.createStatement();
             String sql = "select * from  product";
-           resultSet  = statement.executeQuery(sql);
+            resultSet  = statement.executeQuery(sql);
             while (resultSet.next()){
                 Client_product client_product = new Client_product();
                 Vector<Object> vector = new Vector<>();
@@ -64,10 +107,5 @@ public class ImplementClientService implements ClientService {
             }
             initJdbcUtil.closeConnection();
         }
-    }
-
-    public static void main(String[] args) {
-        ImplementClientService implementClientService = new ImplementClientService();
-        implementClientService.linkJdbc();
     }
 }

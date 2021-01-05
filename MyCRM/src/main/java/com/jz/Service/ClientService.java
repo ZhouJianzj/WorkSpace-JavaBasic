@@ -7,5 +7,5 @@ package Service;
  * @Date 2021/1/4
  **/
 public interface ClientService {
-    public abstract void search();
+    public abstract void search(String testSql);
 }
