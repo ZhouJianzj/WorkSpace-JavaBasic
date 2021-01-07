@@ -1,16 +1,12 @@
 package JFrame;
 
-import javax.lang.model.element.VariableElement;
+
 import javax.swing.*;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableColumn;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Vector;
-import java.util.WeakHashMap;
+
 
 /**
  *          创建一个JTable

@@ -34,7 +34,7 @@ public class ImplementLinkmanService implements LinkmanService {
             while(resultSet.next()){
                 Entity.Linkman linkman = new Entity.Linkman();
                 Vector<Object> vector = new Vector<>();
-                linkman.setId(resultSet.getInt(1));
+                linkman.setId(resultSet.getString(1));
                 vector.addElement(linkman.getId());
                 linkman.setName(resultSet.getString(2));
                 vector.addElement(linkman.getName());

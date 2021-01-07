@@ -12,7 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Linkman {
-    private int id;
+    private String id;
     private String name;
     private String dep;
     private String protype;

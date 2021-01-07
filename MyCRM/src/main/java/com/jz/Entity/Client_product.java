@@ -13,7 +13,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Client_product {
-    private  int id;
+    private  int  id;
     private  String name;
     private  String producttime;
     private  String producttype;
