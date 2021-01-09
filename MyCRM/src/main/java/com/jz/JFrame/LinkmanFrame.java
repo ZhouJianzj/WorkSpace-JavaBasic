@@ -109,3 +109,4 @@ class LinkmanModel extends DefaultTableModel {
     }
 
 }
+

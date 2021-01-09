@@ -1,5 +1,6 @@
 package Service.ClientServicePackage;
 import Utils.JdbcUtil;
+import com.mysql.cj.xdevapi.Table;
 import com.sun.org.apache.xml.internal.security.Init;
 import org.apache.commons.collections4.splitmap.AbstractIterableGetMapDecorator;
 import org.apache.commons.math3.analysis.function.StepFunction;
@@ -18,6 +19,7 @@ import java.util.Vector;
  **/
 public class ImplementClientService implements ClientService {
     public Vector<Vector<Object>> data = null;
+    public JTable jTable;
 
     /**
      * 查询表的数据
@@ -165,8 +167,13 @@ public class ImplementClientService implements ClientService {
         }
     }
 
+    /**
+     * 订单存数据
+     * @param jTable
+     */
     @Override
     public void dingDanTableCun(JTable jTable) {
+        this.jTable = jTable;
 
         JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
         Connection connection = initJdbcUtil.getConnection();
@@ -177,9 +184,10 @@ public class ImplementClientService implements ClientService {
              statement = connection.prepareStatement(sql);
             int selectedRow = jTable.getSelectedRow();
             int[] selectedColumns = jTable.getSelectedColumns();
-            for (int a = 0;a < selectedColumns.length;a++){
-                Object valueAt = jTable.getValueAt(selectedRow, a);
+            for (int a = 0;a < selectedColumns.length - 1;a++){
+                Object valueAt = jTable.getValueAt(selectedRow, a + 1);
                 statement.setString(a+1, (String) valueAt);
+
             }
             statement.executeUpdate(sql);
         } catch (SQLException e) {

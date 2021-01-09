@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06c67a74-aba6-4b57-9132-316d838c3f56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\workspace\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\maven.jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kg84HAtXLMU95MjCCOO3YONzlc" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06c67a74-aba6-4b57-9132-316d838c3f56" name="Default Changelist" comment="" />
+      <created>1606110680765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606110680765</updated>
+      <workItem from="1606110683829" duration="146000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="119" key="FileChooserDialogImpl" timestamp="1606110826197">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="448" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606110826197" />
+    <state x="43" y="0" key="new project wizard" timestamp="1606110827993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="43" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606110827993" />
+  </component>
+</project>
