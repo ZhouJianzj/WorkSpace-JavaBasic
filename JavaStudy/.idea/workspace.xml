@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/MyRender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/ImplementClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/test/java/ButtonTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/test/java/MBR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/test/java/MyButtonEditorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Entity/Client_product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Entity/Client_product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Entity/Linkman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Entity/Linkman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/ClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/adminFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/adminFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementClientService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementLinkmanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementLinkmanService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,9 +93,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Array" />
     </key>
@@ -122,13 +106,6 @@
       <recent name="" />
       <recent name="main.java.com" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\MyCRM\src\main\resources" />
-      <recent name="D:\workspace\Project\src\main\java\com\shy" />
-      <recent name="D:\workspace\ZhouJian\src\main\java\Jbdc\ConnTest1" />
-      <recent name="D:\workspace\ZhouJian\src\test\java" />
-      <recent name="D:\workspace\ZhouJian\src\main\java\Package\Integer" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\MyCRM\src\main\resources" />
       <recent name="D:\workspace\MyCRM" />
@@ -136,13 +113,23 @@
       <recent name="D:\workspace\ZhouJian\src\main\java\Swing" />
       <recent name="D:\workspace\ZhouJian\target\classes\Jbdc\ConnTest1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\MyCRM\src\main\resources" />
+      <recent name="D:\workspace\Project\src\main\java\com\shy" />
+      <recent name="D:\workspace\ZhouJian\src\main\java\Jbdc\ConnTest1" />
+      <recent name="D:\workspace\ZhouJian\src\test\java" />
+      <recent name="D:\workspace\ZhouJian\src\main\java\Package\Integer" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientFrame">
+  <component name="RunManager" selected="Application.Login">
     <configuration name="ButtonTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ButtonTable" />
       <module name="MyCRM" />
@@ -211,8 +198,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientFrame" />
         <item itemvalue="Application.Login" />
+        <item itemvalue="Application.ClientFrame" />
         <item itemvalue="Application.ButtonTable" />
         <item itemvalue="Application.TestTable" />
         <item itemvalue="Application.ImplementClientService" />
@@ -374,6 +361,10 @@
       <workItem from="1609908231908" duration="8857000" />
       <workItem from="1609930759844" duration="17667000" />
       <workItem from="1609997060502" duration="8571000" />
+      <workItem from="1610020031289" duration="730000" />
+      <workItem from="1610089506246" duration="37000" />
+      <workItem from="1610099262755" duration="1574000" />
+      <workItem from="1610168020239" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -455,10 +446,10 @@
     <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1609289935338" />
     <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1606714149357" />
     <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606915035583" />
-    <state x="344" y="373" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609943264296">
+    <state x="344" y="373" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610100159990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="344" y="373" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1609943264296" />
+    <state x="344" y="373" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1610100159990" />
     <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1609333831861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -489,36 +480,36 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609290013697" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608705302849" />
-    <state width="1323" height="419" key="GridCell.Tab.0.bottom" timestamp="1610005647830">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1198" height="165" key="GridCell.Tab.0.bottom" timestamp="1610100038063">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="419" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610005647830" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1877" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609949265016" />
+    <state width="1198" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610100038063" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1323" height="419" key="GridCell.Tab.0.center" timestamp="1610005647830">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1198" height="165" key="GridCell.Tab.0.center" timestamp="1610100038052">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="419" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610005647830" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1877" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609949265016" />
+    <state width="1198" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610100038052" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1323" height="419" key="GridCell.Tab.0.left" timestamp="1610005647829">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1198" height="165" key="GridCell.Tab.0.left" timestamp="1610100038049">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="419" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610005647829" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1877" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609949265016" />
+    <state width="1198" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610100038049" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1323" height="419" key="GridCell.Tab.0.right" timestamp="1610005647830">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1198" height="165" key="GridCell.Tab.0.right" timestamp="1610100038059">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="419" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610005647830" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1877" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609949265016" />
+    <state width="1198" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610100038059" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
     <state width="1181" height="648" key="GridCell.Tab.1.bottom" timestamp="1609775060391">
