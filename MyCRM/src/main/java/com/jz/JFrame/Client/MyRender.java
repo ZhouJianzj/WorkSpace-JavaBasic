@@ -8,7 +8,6 @@ import javax.swing.table.TableCellRenderer;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
 
 public class MyRender extends AbstractCellEditor implements TableCellRenderer, ActionListener, TableCellEditor {
     private JButton button =null;
@@ -36,7 +35,7 @@ public class MyRender extends AbstractCellEditor implements TableCellRenderer, A
 
     @Override
     public Object getCellEditorValue() {
-        return null;
+        return button;
     }
 
     @Override

@@ -177,19 +177,21 @@ public class ImplementClientService implements ClientService {
 
         JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
         Connection connection = initJdbcUtil.getConnection();
-        String sql = "insert into dingdan(id,name,protime,protype,price) values(?,?,?,?,?)";
+
         //输出数据到table中的语句
         PreparedStatement statement = null;
         try {
-             statement = connection.prepareStatement(sql);
             int selectedRow = jTable.getSelectedRow();
-            int[] selectedColumns = jTable.getSelectedColumns();
-            for (int a = 0;a < selectedColumns.length - 1;a++){
-                Object valueAt = jTable.getValueAt(selectedRow, a + 1);
-                statement.setString(a+1, (String) valueAt);
-
+            StringBuffer  sql = new StringBuffer();
+            sql.append( "insert into dingdan(id,name,protime,protype,price)values(?,?,?,?,?)");
+            statement = connection.prepareStatement(String.valueOf(sql));
+            for (int a = 0;a < 5; a++){
+                statement.setString(a+1,jTable.getValueAt(selectedRow,a+1).toString());
             }
-            statement.executeUpdate(sql);
+            statement.executeUpdate(String.valueOf(sql));
+
+
+
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
