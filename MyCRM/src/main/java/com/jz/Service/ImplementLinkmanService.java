@@ -2,10 +2,7 @@ package Service;
 
 import Utils.JdbcUtil;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.Vector;
 
 /**
@@ -17,8 +14,48 @@ import java.util.Vector;
 public class ImplementLinkmanService implements LinkmanService {
     public static Vector<Vector<Object>> data = new Vector<>();
     @Override
-    public void search() {
+    public void search(String bianHao) {
+        data = new Vector<>();
+        JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
+        Connection connection ;
+        Statement statement = null;
+        ResultSet resultSet = null;
+        try {
+            connection = initJdbcUtil.getConnection();
+            String sql = "select * from linkman where id = ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1,bianHao);
+            ResultSet resultSet1 = preparedStatement.executeQuery(sql);
+            while (resultSet.next()){
+                Vector<Object> vector = new Vector<>();
+                vector.addElement(resultSet1.getString(1));
+                vector.addElement(resultSet1.getString(2));
+                vector.addElement(resultSet1.getString(3));
+                vector.addElement(resultSet1.getString(4));
+                vector.addElement(resultSet1.getString(5));
+                vector.addElement(resultSet1.getString(6));
+                data.add(vector);
+            }
 
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            if (resultSet != null) {
+                try {
+                    resultSet.close();
+                } catch (SQLException ex) {
+                    ex.printStackTrace();
+                }
+            }
+            if (statement != null) {
+                try {
+                    statement.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            initJdbcUtil.closeConnection();
+        }
     }
     public void linkJdbc(){
         JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();

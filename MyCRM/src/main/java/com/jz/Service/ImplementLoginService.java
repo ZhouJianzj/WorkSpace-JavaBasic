@@ -31,6 +31,7 @@ public class ImplementLoginService implements loginService {
                 String useName = resultSet.getString("username");
                 String password = resultSet.getString("password");
                 String type = resultSet.getString("type");
+                System.out.println(useName + " " +password +" "+ type);
                 login.setType(type);
                 if (useName .equals(login.getUserName())){
                     if (password.equals(login.getPassWord())){

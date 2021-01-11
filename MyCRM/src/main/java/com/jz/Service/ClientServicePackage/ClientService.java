@@ -40,4 +40,15 @@ public interface ClientService {
      * 订单界面表中数据的显示
      */
     void dingDanTable();
+
+    /**
+     * 删除订单表中的数据
+     * @param jTable
+     */
+    void dingDanTableDelete(JTable jTable);
+
+    /**
+     * 管理员界面用到的客户的表
+     */
+    void client();
 }

@@ -1,13 +1,9 @@
 package Service.ClientServicePackage;
 import Utils.JdbcUtil;
-import com.mysql.cj.xdevapi.Table;
-import com.sun.org.apache.xml.internal.security.Init;
-import org.apache.commons.collections4.splitmap.AbstractIterableGetMapDecorator;
-import org.apache.commons.math3.analysis.function.StepFunction;
+
 
 
 import javax.swing.*;
-import javax.xml.bind.ValidationException;
 import java.sql.*;
 import java.util.Vector;
 
@@ -18,8 +14,8 @@ import java.util.Vector;
  * @Date 2021/1/5
  **/
 public class ImplementClientService implements ClientService {
-    public Vector<Vector<Object>> data = null;
-    public JTable jTable;
+    public static  Vector<Vector<Object>> data = null;
+    static private JTable jTable;
 
     /**
      * 查询表的数据
@@ -173,7 +169,7 @@ public class ImplementClientService implements ClientService {
      */
     @Override
     public void dingDanTableCun(JTable jTable) {
-        this.jTable = jTable;
+        ImplementClientService.jTable = jTable;
 
         JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
         Connection connection = initJdbcUtil.getConnection();
@@ -186,10 +182,14 @@ public class ImplementClientService implements ClientService {
             sql.append( "insert into dingdan(id,name,protime,protype,price)values(?,?,?,?,?)");
             statement = connection.prepareStatement(String.valueOf(sql));
             for (int a = 0;a < 5; a++){
-                statement.setString(a+1,jTable.getValueAt(selectedRow,a+1).toString());
+                //遇见的问题就是这里的行号是从0开始的
+                String s = jTable.getValueAt(selectedRow, a).toString();
+                statement.setString(a+1,s);
+                System.out.println(s);
             }
-            statement.executeUpdate(String.valueOf(sql));
-
+            //执行返回的是插入的记录条数
+            int i1 = statement.executeUpdate();
+            System.out.println(i1);
 
 
         } catch (SQLException e) {
@@ -248,6 +248,91 @@ public class ImplementClientService implements ClientService {
             initJdbcUtil.closeConnection();
         }
     }
+
+    /**
+     * 删除订单表中选中的数据
+     */
+    @Override
+    public void dingDanTableDelete(JTable table) {
+        ImplementClientService.jTable = table;
+
+        JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
+        Connection connection = initJdbcUtil.getConnection();
+
+        PreparedStatement statement = null;
+        try {
+            StringBuffer  sql = new StringBuffer();
+            sql.append( "delete from dingdan where id = ? ");
+            statement = connection.prepareStatement(String.valueOf(sql));
+            //获取选中的行号，这里只需要where一个条件就好了 就选取id
+            int selectedRow1 = table.getSelectedRow();
+            String s = table.getValueAt(selectedRow1, 0).toString();
+            statement.setString(1,s);
+
+            //执行返回的是插入的记录条数
+            int i1 = statement.executeUpdate();
+            System.out.println(i1);
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+        }
+        if (statement != null) {
+            try {
+                statement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        initJdbcUtil.closeConnection();
+    }
+
+    @Override
+    public void client() {
+        data = new Vector<>();
+        JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
+        Connection connection = initJdbcUtil.getConnection();
+        String sql = "select * from client";
+        Statement statement = null;
+        ResultSet resultSet = null;
+        try {
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(sql);
+            while (resultSet.next()) {
+                Vector<Object> vector = new Vector<>();
+                vector.addElement(resultSet.getString(1));
+                vector.addElement(resultSet.getString(2));
+                vector.addElement(resultSet.getString(3));
+                vector.addElement(resultSet.getString(4));
+                vector.addElement(resultSet.getString(5));
+                vector.addElement(resultSet.getString(6));
+                vector.addElement(resultSet.getString(7));
+                vector.addElement(resultSet.getString(8));
+                data.addElement(vector);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            if (resultSet != null) {
+                try {
+                    resultSet.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (statement != null) {
+                try {
+                    statement.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            initJdbcUtil.closeConnection();
+        }
+    }
+
 
 }
 

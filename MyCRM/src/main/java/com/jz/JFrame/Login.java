@@ -5,7 +5,9 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.URL;
 import Entity.login;
+import JFrame.Admin.adminFrame;
 import JFrame.Client.ClientFrame;
+import JFrame.Linkman.LinkmanFrame;
 import Service.ImplementLoginService;
 
 /**
@@ -29,7 +31,7 @@ public class Login extends JFrame {
     SystemTray systemTray;
 
     public Login(){
-      setTitle("小熊");
+      setTitle("皮卡丘");
       setLocationRelativeTo(null);
         Container contentPane = getContentPane();
         setSize(430,300);
@@ -39,7 +41,7 @@ public class Login extends JFrame {
         jLabeluserName.setFont(new Font("楷体",Font.BOLD,15));
         jLabelpassword.setFont(new Font("楷体",Font.BOLD,15));
 //        设置log图标
-        URL pic = Login.class.getClassLoader().getResource("pic1.jpg");
+        URL pic = Login.class.getClassLoader().getResource("pic4.jpg");
         Image pic1 = new ImageIcon(pic).getImage();
         setIconImage(pic1);
 //       设置登录面板的背景

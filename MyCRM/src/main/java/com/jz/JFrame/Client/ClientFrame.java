@@ -1,12 +1,15 @@
 package JFrame.Client;
 
 import Service.ClientServicePackage.ImplementClientService;
+import Service.ClientServicePackage.TimeThread;
 import com.google.gson.JsonObject;
 
 import javax.swing.*;
 import javax.swing.table.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.net.URL;
+import java.sql.Connection;
 import java.util.Vector;
 
 /**
@@ -32,6 +35,7 @@ public class ClientFrame extends JFrame {
     JPanel jPanelRight1 = new JPanel();
     //订单面板的组件
     JPanel jPanelRight2 = new JPanel(springLayout);
+    JButton delete = new JButton("删除");
      JTable dingDanJTable = new JTable();
 
     JPanel jPanelRightSearch = new JPanel();
@@ -51,6 +55,8 @@ public class ClientFrame extends JFrame {
     JTextArea backinfor = new JTextArea(20,30);
     JLabel jLabelBackinfor = new JLabel("反馈内容 :");
     JButton jButtonSubmit = new JButton("提交");
+    //时间显示
+    JLabel timeLable = new JLabel();
 
 
     public ClientFrame(){
@@ -58,10 +64,23 @@ public class ClientFrame extends JFrame {
         setBounds(20,20,800,600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        //        设置log图标
+        URL pic = ClientFrame.class.getClassLoader().getResource("pic4.jpg");
+        Image pic1 = new ImageIcon(pic).getImage();
+        setIconImage(pic1);
+
+
         Container contentPane = getContentPane();
         contentPane.add(northPanel,BorderLayout.NORTH);
         northPanel.add(search);
         northPanel.add(searchText);
+
+        //时间的显示
+        JPanel timePanel = new JPanel(new FlowLayout());
+        timePanel.add(timeLable);
+        contentPane.add(timePanel,BorderLayout.SOUTH);
+        TimeThread timeThread = new TimeThread(timeLable);
+        new Thread(timeThread).start();
 
         jPanelLfet.add(jButton1);
         jPanelLfet.add(jButton2);
@@ -116,8 +135,12 @@ public class ClientFrame extends JFrame {
         JScrollPane jScrollPane1 = new JScrollPane(dingDanJTable);
         dingDanJTable.setRowHeight(30);
         jPanelRight2.add(jScrollPane1);
+        jPanelRight2.add(delete);
+        SpringLayout.Constraints sdelete = springLayout.getConstraints(delete);
+        sdelete.setX(Spring.constant(480));
         SpringLayout.Constraints cjs = springLayout.getConstraints(jScrollPane1);
         cjs.setWidth(Spring.constant(550));
+        cjs.setY(Spring.constant(40));
 
 
         jPanelRight3.add(id);
@@ -150,7 +173,7 @@ public class ClientFrame extends JFrame {
         column.addElement("选购");
 
 //       获取data 使用模型
-        DefaultTableModel defaultTableModel = new DefaultTableModel(implementClientService.data,column);
+        DefaultTableModel defaultTableModel = new DefaultTableModel(ImplementClientService.data,column);
         productTable.setModel(defaultTableModel);
         setTableGeShi(productTable,5);
         productTable.setSelectionForeground(Color.RED);
@@ -174,11 +197,10 @@ public class ClientFrame extends JFrame {
         jButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //表中存数据
                implementClientService.dingDanTable();
                //设置列的个数
                //设置表格模型显示数据
-               dingDanJTable.setModel( new DefaultTableModel(implementClientService.data,column));
+               dingDanJTable.setModel( new DefaultTableModel(ImplementClientService.data,column));
                setTableGeShi(dingDanJTable,5);
                 jPanelRight1.show(false);
                 jPanelRight2.show(true);
@@ -203,7 +225,7 @@ public class ClientFrame extends JFrame {
 //                查询table
                 String text = searchText.getText();
                 implementClientService.search(text);
-                jTableSearch.setModel(new DefaultTableModel(implementClientService.data,column));
+                jTableSearch.setModel(new DefaultTableModel(ImplementClientService.data,column));
                 jTableSearch.getColumnModel().getColumn(5).setCellRenderer(new MyRender());
                 setTableGeShi(jTableSearch,5);
                 jTableSearch.setRowHeight(22);
@@ -224,6 +246,20 @@ public class ClientFrame extends JFrame {
                 }else {
                     JOptionPane.showMessageDialog(jButtonSubmit.getParent(), "请输入反馈内容");
                 }
+            }
+        });
+        /**
+         * 订单界面的按钮删除事件
+         */
+        delete.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                implementClientService.dingDanTableDelete(dingDanJTable);
+                implementClientService.dingDanTable();
+                //设置列的个数
+                //设置表格模型显示数据
+                dingDanJTable.setModel( new DefaultTableModel(ImplementClientService.data,column));
+                setTableGeShi(dingDanJTable,5);
             }
         });
         setResizable(false);

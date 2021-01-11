@@ -1,14 +1,16 @@
-package JFrame;
+package JFrame.Linkman;
 
 import Service.ImplementLinkmanService;
-import Utils.JdbcUtil;
 
+import javax.lang.model.element.VariableElement;
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableColumn;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Vector;
 
 /**
@@ -26,17 +28,54 @@ import java.util.Vector;
  */
 public class LinkmanFrame extends JFrame {
     JTable jTable = new JTable();
-    public  LinkmanFrame(){
+    JButton jButton = new JButton("查询");
+    JTextField jTextField = new JTextField(15);
+    //目的就是实现点击查询按钮之后再一次的能够返回到主页面
 
+    public  LinkmanFrame(){
+        SpringLayout springLayout = new SpringLayout();
+        setLayout(springLayout);
         setTitle("员工界面");
-        setBounds(20,20,800,800);
+        setBounds(20,20,800,600);
+        setResizable(false);
         Container contentPane = getContentPane();
+        SpringLayout.Constraints cjTextField = springLayout.getConstraints(jButton);
+        cjTextField.setX(Spring.constant(200));
+        SpringLayout.Constraints cB= springLayout.getConstraints(jTextField);
+        cB.setX(Spring.constant(30));
+        cB.setY(Spring.constant(5));
+
 //        连接数据库获取data
-        ImplementLinkmanService implementLinkmanService = new ImplementLinkmanService();
-        implementLinkmanService.linkJdbc();
-        jTable.setModel(LinkmanModel.mySetTableModel(ImplementLinkmanService.data));
+
+            new ImplementLinkmanService().linkJdbc();
+            jTable.setModel(LinkmanModel.mySetTableModel(ImplementLinkmanService.data));
+
+
+//      表格的大小
         JScrollPane jScrollPane = new JScrollPane(jTable);
+        SpringLayout.Constraints cjTable = springLayout.getConstraints(jScrollPane);
+        cjTable.setY(Spring.constant(30));
+        cjTable.setX(Spring.constant(30));
+        cjTable.setWidth(Spring.constant(700));
+
         contentPane.add(jScrollPane);
+        contentPane.add(jButton);
+        contentPane.add(jTextField);
+
+        jButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String text = jTextField.getText();
+                    if (!"".equals(text)) {
+                            new ImplementLinkmanService().search(text);
+                            jTable.setModel(LinkmanModel.mySetTableModel(ImplementLinkmanService.data));
+
+                        }
+
+                }
+
+        });
+
 //        装饰表格
         JTableHeader tableHeader = jTable.getTableHeader();
         tableHeader.setFont(new Font(null,Font.BOLD,16));
@@ -73,40 +112,5 @@ public class LinkmanFrame extends JFrame {
 
     }
 }
-class LinkmanModel extends DefaultTableModel {
-    //    表格的列的属性的集合
-    private static Vector<String> colunm = new Vector<>();
 
-    public static Vector<String> getColunm() {
-        return colunm;
-    }
-
-    //    使用静态的代码块来执行方法
-    static{
-        colunm.addElement("编号");
-        colunm.addElement("姓名");
-        colunm.addElement("部门");
-        colunm.addElement("产品类型");
-        colunm.addElement("计划表编号");
-        colunm.addElement("薪资");
-    }
-    @Override
-    public boolean isCellEditable(int row, int column) {
-        //    表示不可以编辑表格的内容
-        return  false ;
-    }
-    //    使用到单例模式
-    private static LinkmanModel linkmanModel = new LinkmanModel();
-
-    /**
-     * 传入data数据创建tablemodel
-     * @param data
-     * @return
-     */
-    public static LinkmanModel mySetTableModel(Vector<Vector<Object>> data){
-        linkmanModel.setDataVector(data,colunm);
-        return linkmanModel;
-    }
-
-}
 

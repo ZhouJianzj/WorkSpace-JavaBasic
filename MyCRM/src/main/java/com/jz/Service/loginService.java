@@ -10,5 +10,5 @@ import Utils.JdbcUtil;
  * @Date 2021/1/4
  **/
 public interface loginService {
-    public abstract Boolean checkedLogin(login login);
+     Boolean checkedLogin(login login);
 }

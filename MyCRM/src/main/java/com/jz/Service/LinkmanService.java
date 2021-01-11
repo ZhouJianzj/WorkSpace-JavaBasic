@@ -10,5 +10,5 @@ public interface LinkmanService {
     /**
      * 查询自己
      */
-    void search();
+    void search(String bianHao);
 }
