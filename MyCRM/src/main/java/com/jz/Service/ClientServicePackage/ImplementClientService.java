@@ -271,7 +271,7 @@ public class ImplementClientService implements ClientService {
 
             //执行返回的是插入的记录条数
             int i1 = statement.executeUpdate();
-            System.out.println(i1);
+
 
 
         } catch (SQLException e) {

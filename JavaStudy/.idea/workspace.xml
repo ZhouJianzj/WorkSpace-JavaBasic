@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Admin/ClientTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Admin/DingDanTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Admin/LinkmanTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Admin/PlanTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Admin/ProductTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Linkman/LinkmanModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/TimeThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/resources/pic4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyCRM/src/main/resources/pic5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/LinkmanFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Linkman/LinkmanFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/adminFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Admin/adminFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/ClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/ImplementClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/ImplementClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementLinkmanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementLinkmanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/LinkmanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/LinkmanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/loginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/loginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/descripton" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/descripton" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,6 +376,7 @@
       <workItem from="1610284031045" duration="756000" />
       <workItem from="1610323195619" duration="11782000" />
       <workItem from="1610353149160" duration="11763000" />
+      <workItem from="1610368254302" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
