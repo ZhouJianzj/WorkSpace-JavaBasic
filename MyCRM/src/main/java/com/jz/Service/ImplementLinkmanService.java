@@ -14,26 +14,28 @@ import java.util.Vector;
 public class ImplementLinkmanService implements LinkmanService {
     public static Vector<Vector<Object>> data = new Vector<>();
     @Override
-    public void search(String bianHao) {
+    public void search(String  bianHao) {
         data = new Vector<>();
         JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
         Connection connection ;
-        Statement statement = null;
+        PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
         try {
             connection = initJdbcUtil.getConnection();
-            String sql = "select * from linkman where id = ?";
-            PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1,bianHao);
-            ResultSet resultSet1 = preparedStatement.executeQuery(sql);
+            StringBuffer sql = new StringBuffer();
+            sql.append("select * from linkman where id = '");
+           preparedStatement = connection.prepareStatement(sql.toString());
+            sql.append( bianHao +"'" );
+            resultSet = preparedStatement.executeQuery(sql.toString());
             while (resultSet.next()){
                 Vector<Object> vector = new Vector<>();
-                vector.addElement(resultSet1.getString(1));
-                vector.addElement(resultSet1.getString(2));
-                vector.addElement(resultSet1.getString(3));
-                vector.addElement(resultSet1.getString(4));
-                vector.addElement(resultSet1.getString(5));
-                vector.addElement(resultSet1.getString(6));
+                vector.addElement(resultSet.getString(1));
+                vector.addElement(resultSet.getString(2));
+                vector.addElement(resultSet.getString(3));
+                vector.addElement(resultSet.getString(4));
+                vector.addElement(resultSet.getString(5));
+                vector.addElement(resultSet.getString(6));
+                System.out.println(vector.toString());
                 data.add(vector);
             }
 
@@ -47,9 +49,9 @@ public class ImplementLinkmanService implements LinkmanService {
                     ex.printStackTrace();
                 }
             }
-            if (statement != null) {
+            if (preparedStatement != null) {
                 try {
-                    statement.close();
+                    preparedStatement.close();
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }

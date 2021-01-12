@@ -66,7 +66,7 @@ public class LinkmanFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String text = jTextField.getText();
-                    if (!"".equals(text)) {
+                if (!"".equals(text)) {
                             new ImplementLinkmanService().search(text);
                             jTable.setModel(LinkmanModel.mySetTableModel(ImplementLinkmanService.data));
 

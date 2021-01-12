@@ -224,6 +224,7 @@ public class ClientFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
 //                查询table
                 String text = searchText.getText();
+
                 implementClientService.search(text);
                 jTableSearch.setModel(new DefaultTableModel(ImplementClientService.data,column));
                 jTableSearch.getColumnModel().getColumn(5).setCellRenderer(new MyRender());

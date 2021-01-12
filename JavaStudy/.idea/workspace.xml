@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/ImplementClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/ImplementClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/descripton" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/descripton" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Linkman/LinkmanFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Linkman/LinkmanFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementLinkmanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ImplementLinkmanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/LinkmanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/LinkmanService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +133,7 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkmanFrame">
+  <component name="RunManager" selected="Application.Login">
     <configuration name="ClientFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JFrame.Client.ClientFrame" />
       <module name="MyCRM" />
@@ -205,10 +208,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.ClientFrame" />
         <item itemvalue="Application.LinkmanFrame" />
         <item itemvalue="Application.adminFrame" />
-        <item itemvalue="Application.ClientFrame" />
-        <item itemvalue="Application.Login" />
         <item itemvalue="Application.ImplementLinkmanService" />
       </list>
     </recent_temporary>
@@ -376,7 +379,11 @@
       <workItem from="1610284031045" duration="756000" />
       <workItem from="1610323195619" duration="11782000" />
       <workItem from="1610353149160" duration="11763000" />
-      <workItem from="1610368254302" duration="1655000" />
+      <workItem from="1610368254302" duration="2345000" />
+      <workItem from="1610409647822" duration="577000" />
+      <workItem from="1610410577206" duration="32000" />
+      <workItem from="1610413534728" duration="6981000" />
+      <workItem from="1610447969668" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -492,36 +499,36 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609290013697" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610206129820" />
-    <state width="1877" height="317" key="GridCell.Tab.0.bottom" timestamp="1610365244444">
+    <state width="1877" height="72" key="GridCell.Tab.0.bottom" timestamp="1610452576183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610335357914" />
+    <state width="637" height="50" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610418684239" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610365244444" />
+    <state width="1877" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610452576183" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1877" height="317" key="GridCell.Tab.0.center" timestamp="1610365244444">
+    <state width="1877" height="72" key="GridCell.Tab.0.center" timestamp="1610452576183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610335357913" />
+    <state width="637" height="50" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610418684239" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610365244444" />
+    <state width="1877" height="72" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610452576183" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1877" height="317" key="GridCell.Tab.0.left" timestamp="1610365244444">
+    <state width="1877" height="72" key="GridCell.Tab.0.left" timestamp="1610452576182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610335357913" />
+    <state width="637" height="50" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610418684239" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610365244444" />
+    <state width="1877" height="72" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610452576182" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1877" height="317" key="GridCell.Tab.0.right" timestamp="1610365244444">
+    <state width="1877" height="72" key="GridCell.Tab.0.right" timestamp="1610452576183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610335357914" />
+    <state width="637" height="50" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610418684239" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610365244444" />
+    <state width="1877" height="72" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610452576183" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
     <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1610335357914">
