@@ -20,6 +20,7 @@ public class TimeThread implements Runnable {
         this.timeLable = timeLable;
         timeLable.setFont(new Font("微软雅黑", Font.BOLD,22));
         timeLable.setForeground(Color.BLACK);
+      
     }
 
     @Override
