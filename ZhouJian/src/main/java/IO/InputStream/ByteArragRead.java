@@ -1,7 +1,9 @@
 package IO.InputStream;
 
+import javax.lang.model.element.VariableElement;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.text.FieldPosition;
 
@@ -15,12 +17,14 @@ import java.text.FieldPosition;
  **/
 public class ByteArragRead {
     public static void main(String[] args) {
+        //文件的输入
         FileInputStream fileInputStream = null;
         int a = 0;
+        //创建一个byte数组去读取
         byte[] bytes = new byte[4];
         try {
 //            默认的当前路径是工程的根目录
-            fileInputStream = new FileInputStream("D:\\workSpace\\ZhouJian\\src\\main\\java\\IO\\txt");
+            fileInputStream = new FileInputStream("D:\\workspace\\ZhouJian\\src\\main\\resources\\新建文本文档.txt");
 //            这里返回的值是读取的字节数，如果数组读满的话返回值就是数组的长度 4
 //            如果数组没有读完的话就是里面元素的个数
 //            简而言之就是读取的字符数

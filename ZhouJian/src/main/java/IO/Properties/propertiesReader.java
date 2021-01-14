@@ -15,11 +15,12 @@ import java.util.Properties;
  **/
 public class propertiesReader {
     public static void main(String[] args) {
+        Reader reader = null;
         try {
 //            创建文件夹
 //            File f = new File("UserNameAndPassWord");
 //            f.createNewFile();
-            Reader reader = new FileReader("UserNameAndPassWord");
+           reader = new FileReader("UserNameAndPassWord");
 //            创建一个集合使得输入的数据能够有点方存储
             Properties properties = new Properties();
 //            map数组去装载数据
@@ -30,6 +31,14 @@ public class propertiesReader {
             System.out.println(property);
         } catch (IOException e) {
             e.printStackTrace();
+        }finally {
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 }

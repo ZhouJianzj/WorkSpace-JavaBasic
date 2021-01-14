@@ -58,7 +58,6 @@ public class DataOutputStreamShuJuJiaMi {
             long l = dataIn.readLong();
             boolean bb = dataIn.readBoolean();
             char c = dataIn.readChar();
-            byte[] bytes = new byte[4];
             String s1 = dataIn.readUTF();
             float f = dataIn.readFloat();
             double d = dataIn.readDouble();

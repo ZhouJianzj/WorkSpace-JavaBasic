@@ -20,7 +20,7 @@ public class FileInputStreamOrOutputStream {
         try {
 //            会出现异常
 //            这里的文件路径默认可以直接的创建在项目的文件下，可以直接写文件名字，不适用绝对路径 absolute
-            fileInputStream = new FileInputStream("C:\\Users\\Administrator\\Desktop\\AAA.txt");
+            fileInputStream = new FileInputStream("D:\\workspace\\ZhouJian\\src\\main\\resources\\新建文本文档.txt");
 //            当读取到最后一个字节的是时候没有了就返回一个  -1
 //             while (true){
 //                  a = fileInputStream.read();
@@ -32,7 +32,8 @@ public class FileInputStreamOrOutputStream {
 
 //            改进的写法
             while ((a = fileInputStream.read()) != -1){
-                System.out.println(a);
+                //这里返回的是数组的现在读取的长度
+//                System.out.println(new String(byte ,0,byte.length));
             }
         } catch (IOException e) {
             e.printStackTrace();

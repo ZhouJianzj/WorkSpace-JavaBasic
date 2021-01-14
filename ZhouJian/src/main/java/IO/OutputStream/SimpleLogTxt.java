@@ -31,4 +31,11 @@ public class SimpleLogTxt {
             e.printStackTrace();
         }
     }
-}
+
+
+        public static void main(String[] args) {
+            SimpleLogTxt print = new SimpleLogTxt();
+            print.log("这是一个日志的基本框架");
+        }
+    }
+

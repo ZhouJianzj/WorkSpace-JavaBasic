@@ -16,7 +16,7 @@ public class GaiJingByteArrayRead {
          byte[] bytes = new byte[5];
         FileInputStream fileInputStream = null;
         try {
-//            创建一个渠道
+//
             fileInputStream = new FileInputStream( "D:\\workSpace\\ZhouJian\\src\\main\\java\\IO\\txt");
 //            读取字节并且返回一个值
 
@@ -36,14 +36,14 @@ public class GaiJingByteArrayRead {
             e.printStackTrace();
         }finally {
 //            输入输出流结束的时候一定要关闭
-            if (fileInputStream !=null)
-            try {
-                fileInputStream.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+            if (fileInputStream != null) {
+                try {
+                    fileInputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
-
 
     }
 }

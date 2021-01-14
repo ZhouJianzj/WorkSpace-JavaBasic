@@ -8,6 +8,7 @@ import java.io.IOException;
 /**
  * @ClassName BufferReader
  * @Description TODO
+ *                                  bufferedReader 只能缓存字符流
  * @Author ZhouJian
  * @Date 2020/12/9
  **/

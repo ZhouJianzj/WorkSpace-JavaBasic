@@ -17,6 +17,7 @@ public class Write {
         Writer w = null;
 
         try {
+            //append表示可以追加的意思，当第二次写入的时候第一次写入的不会被覆盖掉
             w = new FileWriter("C:\\Users\\Administrator\\Desktop\\AAA.txt",true);
             String s = "你好呀";
             w.write(s);

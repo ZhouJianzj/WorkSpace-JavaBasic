@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/SuperText/AAA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/ExtendsText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/ShuJuJiaMi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/ShuiShouJi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/resources/新建文本文档.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/ZhouJian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/ZhouJian.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/BufferReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/BufferReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/ByteArragRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/ByteArragRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/FileInputStreamOrOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/FileInputStreamOrOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/GaiJingByteArrayRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/GaiJingByteArrayRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/DataOutputStreamShuJuJiaMi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/DataOutputStreamShuJuJiaMi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/SimpleLogMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/SimpleLogTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/SimpleLogTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/Write.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/Write.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Properties/propertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Properties/propertiesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/SerializeObjectInOutps/SerializableMoreObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/SerializeObjectInOutps/SerializableMoreObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,9 +109,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Array" />
     </key>
@@ -110,6 +122,13 @@
       <recent name="" />
       <recent name="main.java.com" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\ZhouJian\src\main\resources" />
+      <recent name="D:\workspace\ZhouJian" />
+      <recent name="D:\workspace\ZhouJian\src\main\java" />
+      <recent name="D:\workspace\MyCRM\src\main\resources" />
+      <recent name="D:\workspace\MyCRM" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\MyCRM\src\main\resources" />
       <recent name="D:\workspace\Project\src\main\java\com\shy" />
@@ -117,12 +136,8 @@
       <recent name="D:\workspace\ZhouJian\src\test\java" />
       <recent name="D:\workspace\ZhouJian\src\main\java\Package\Integer" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\ZhouJian" />
-      <recent name="D:\workspace\ZhouJian\src\main\java" />
-      <recent name="D:\workspace\MyCRM\src\main\resources" />
-      <recent name="D:\workspace\MyCRM" />
-      <recent name="D:\workspace\ZhouJian\src\main\java\img" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -130,13 +145,13 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Login">
-    <configuration name="CaiShuzi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SuperText.CaiShuzi" />
+  <component name="RunManager" selected="Application.SerializableMoreObject">
+    <configuration name="DataOutputStreamShuJuJiaMi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.OutputStream.DataOutputStreamShuJuJiaMi" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SuperText.*" />
+          <option name="PATTERN" value="IO.OutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JFrame.Client.ClientFrame" />
-      <module name="MyCRM" />
+    <configuration name="SerializableMoreObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.SerializeObjectInOutps.SerializableMoreObject" />
+      <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JFrame.Client.*" />
+          <option name="PATTERN" value="IO.SerializeObjectInOutps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkmanFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JFrame.Linkman.LinkmanFrame" />
-      <module name="MyCRM" />
+    <configuration name="ShuJuJiaMi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextClass.ShuJuJiaMi" />
+      <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JFrame.Linkman.*" />
+          <option name="PATTERN" value="TextClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JFrame.Login" />
-      <module name="MyCRM" />
+    <configuration name="SimpleLogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.OutputStream.SimpleLogMain" />
+      <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JFrame.Admin.*" />
+          <option name="PATTERN" value="IO.OutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="adminFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JFrame.Admin.adminFrame" />
-      <module name="MyCRM" />
+    <configuration name="SimpleLogTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.OutputStream.SimpleLogTxt" />
+      <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JFrame.Admin.*" />
+          <option name="PATTERN" value="IO.OutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,19 +212,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientFrame" />
-      <item itemvalue="Application.Login" />
-      <item itemvalue="Application.adminFrame" />
-      <item itemvalue="Application.LinkmanFrame" />
-      <item itemvalue="Application.CaiShuzi" />
+      <item itemvalue="Application.DataOutputStreamShuJuJiaMi" />
+      <item itemvalue="Application.ShuJuJiaMi" />
+      <item itemvalue="Application.SimpleLogMain" />
+      <item itemvalue="Application.SimpleLogTxt" />
+      <item itemvalue="Application.SerializableMoreObject" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.CaiShuzi" />
-        <item itemvalue="Application.ClientFrame" />
-        <item itemvalue="Application.LinkmanFrame" />
-        <item itemvalue="Application.adminFrame" />
+        <item itemvalue="Application.SerializableMoreObject" />
+        <item itemvalue="Application.SimpleLogTxt" />
+        <item itemvalue="Application.SimpleLogMain" />
+        <item itemvalue="Application.ShuJuJiaMi" />
+        <item itemvalue="Application.DataOutputStreamShuJuJiaMi" />
       </list>
     </recent_temporary>
   </component>
@@ -386,6 +401,7 @@
       <workItem from="1610586829599" duration="3377000" />
       <workItem from="1610602466853" duration="1473000" />
       <workItem from="1610605036486" duration="4466000" />
+      <workItem from="1610622062741" duration="12945000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -432,11 +448,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="955" y="72" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1607697427660" />
-    <state x="609" y="231" key="#Project_Structure" timestamp="1608712570567">
+    <state x="609" y="231" key="#Project_Structure" timestamp="1610627684609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="433" y="45" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1607775831381" />
-    <state x="609" y="231" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1608712570567" />
+    <state x="609" y="231" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1610627684609" />
     <state x="552" y="178" key="#SQL_Dialects" timestamp="1609846551108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -467,10 +483,10 @@
     <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1609289935338" />
     <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1606714149357" />
     <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606915035583" />
-    <state x="344" y="373" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610363153710">
+    <state x="344" y="373" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610633766185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="344" y="373" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1610363153710" />
+    <state x="344" y="373" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1610633766185" />
     <state x="738" y="390" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1609333831861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -501,36 +517,32 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609290013697" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610206129820" />
-    <state width="1323" height="-7" key="GridCell.Tab.0.bottom" timestamp="1610607917107">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1637" height="224" key="GridCell.Tab.0.bottom" timestamp="1610635296310">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="-7" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610607917107" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1877" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610592343809" />
+    <state width="1637" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610635296310" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1323" height="-7" key="GridCell.Tab.0.center" timestamp="1610607917107">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1637" height="224" key="GridCell.Tab.0.center" timestamp="1610635296310">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="-7" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610607917107" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1877" height="72" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610592343809" />
+    <state width="1637" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610635296310" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1323" height="-7" key="GridCell.Tab.0.left" timestamp="1610607917106">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1637" height="224" key="GridCell.Tab.0.left" timestamp="1610635296310">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="-7" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610607917106" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1877" height="72" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610592343808" />
+    <state width="1637" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610635296310" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1323" height="-7" key="GridCell.Tab.0.right" timestamp="1610607917107">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1637" height="224" key="GridCell.Tab.0.right" timestamp="1610635296310">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="-7" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610607917107" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1877" height="72" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610592343809" />
+    <state width="1637" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610635296310" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
     <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1610335357914">
@@ -621,11 +633,11 @@
     <state x="97" y="171" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1609477189632" />
     <state x="343" y="215" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-369.1080.1366.728@0.0.1920.1040" timestamp="1608217364729" />
     <state x="343" y="215" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610277036422" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1610354744837">
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1610631691112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="450" y="253" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610327738043" />
-    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610354744837" />
+    <state x="633" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610631691112" />
     <state x="633" y="375" width="672" height="705" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607235284644" />
     <state x="921" y="401" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607697767798">
       <screen x="0" y="0" width="1920" height="1040" />
