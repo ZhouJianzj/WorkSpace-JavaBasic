@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/TimeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/Service/ClientServicePackage/TimeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyCRM/src/main/java/com/jz/JFrame/Client/ClientFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +94,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Array" />
     </key>
@@ -107,13 +110,6 @@
       <recent name="" />
       <recent name="main.java.com" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\MyCRM\src\main\resources" />
-      <recent name="D:\workspace\MyCRM" />
-      <recent name="D:\workspace\ZhouJian\src\main\java\img" />
-      <recent name="D:\workspace\ZhouJian\src\main\java\Swing" />
-      <recent name="D:\workspace\ZhouJian\target\classes\Jbdc\ConnTest1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\MyCRM\src\main\resources" />
       <recent name="D:\workspace\Project\src\main\java\com\shy" />
@@ -121,8 +117,12 @@
       <recent name="D:\workspace\ZhouJian\src\test\java" />
       <recent name="D:\workspace\ZhouJian\src\main\java\Package\Integer" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\ZhouJian" />
+      <recent name="D:\workspace\ZhouJian\src\main\java" />
+      <recent name="D:\workspace\MyCRM\src\main\resources" />
+      <recent name="D:\workspace\MyCRM" />
+      <recent name="D:\workspace\ZhouJian\src\main\java\img" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -131,12 +131,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Login">
-    <configuration name="ClientFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JFrame.Client.ClientFrame" />
-      <module name="MyCRM" />
+    <configuration name="CaiShuzi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SuperText.CaiShuzi" />
+      <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JFrame.Client.*" />
+          <option name="PATTERN" value="SuperText.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementLinkmanService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Service.ImplementLinkmanService" />
+    <configuration name="ClientFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JFrame.Client.ClientFrame" />
       <module name="MyCRM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Service.*" />
+          <option name="PATTERN" value="JFrame.Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,16 +200,16 @@
       <item itemvalue="Application.ClientFrame" />
       <item itemvalue="Application.Login" />
       <item itemvalue="Application.adminFrame" />
-      <item itemvalue="Application.ImplementLinkmanService" />
       <item itemvalue="Application.LinkmanFrame" />
+      <item itemvalue="Application.CaiShuzi" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Login" />
+        <item itemvalue="Application.CaiShuzi" />
         <item itemvalue="Application.ClientFrame" />
         <item itemvalue="Application.LinkmanFrame" />
         <item itemvalue="Application.adminFrame" />
-        <item itemvalue="Application.ImplementLinkmanService" />
       </list>
     </recent_temporary>
   </component>
@@ -384,6 +384,8 @@
       <workItem from="1610496171235" duration="1288000" />
       <workItem from="1610548408037" duration="832000" />
       <workItem from="1610586829599" duration="3377000" />
+      <workItem from="1610602466853" duration="1473000" />
+      <workItem from="1610605036486" duration="4466000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -499,34 +501,34 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609290013697" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610206129820" />
-    <state width="1877" height="72" key="GridCell.Tab.0.bottom" timestamp="1610592343809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="-7" key="GridCell.Tab.0.bottom" timestamp="1610607917107">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="72" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610591252180" />
+    <state width="1323" height="-7" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610607917107" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
     <state width="1877" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610592343809" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1877" height="72" key="GridCell.Tab.0.center" timestamp="1610592343809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="-7" key="GridCell.Tab.0.center" timestamp="1610607917107">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="72" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610591252180" />
+    <state width="1323" height="-7" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610607917107" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
     <state width="1877" height="72" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610592343809" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1877" height="72" key="GridCell.Tab.0.left" timestamp="1610592343808">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="-7" key="GridCell.Tab.0.left" timestamp="1610607917106">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="72" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610591252180" />
+    <state width="1323" height="-7" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610607917106" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
     <state width="1877" height="72" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610592343808" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1877" height="72" key="GridCell.Tab.0.right" timestamp="1610592343809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="-7" key="GridCell.Tab.0.right" timestamp="1610607917107">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="72" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610591252180" />
+    <state width="1323" height="-7" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610607917107" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
     <state width="1877" height="72" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610592343809" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />

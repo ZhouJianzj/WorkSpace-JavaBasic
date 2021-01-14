@@ -228,7 +228,7 @@ public class ClientFrame extends JFrame {
                 implementClientService.search(text);
                 jTableSearch.setModel(new DefaultTableModel(ImplementClientService.data,column));
                 jTableSearch.getColumnModel().getColumn(5).setCellRenderer(new MyRender());
-                setTableGeShi(jTableSearch,5);
+                setTableGeShi(jTableSearch,5);  
                 jTableSearch.setRowHeight(22);
                 jPanelRight1.show(false);
                 jPanelRight2.show(false);
