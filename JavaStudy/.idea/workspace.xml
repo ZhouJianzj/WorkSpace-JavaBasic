@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/SuperText/AAA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/ExtendsText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/ShuJuJiaMi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/ShuiShouJi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/resources/新建文本文档.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/StringText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/ZhouJian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/ZhouJian.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/BufferReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/BufferReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/ByteArragRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/ByteArragRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/FileInputStreamOrOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/FileInputStreamOrOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/GaiJingByteArrayRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/GaiJingByteArrayRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/DataOutputStreamShuJuJiaMi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/DataOutputStreamShuJuJiaMi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/SimpleLogMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/SimpleLogTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/SimpleLogTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/Write.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/Write.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Properties/propertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Properties/propertiesReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/SerializeObjectInOutps/SerializableMoreObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/SerializeObjectInOutps/SerializableMoreObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,39 +131,13 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializableMoreObject">
-    <configuration name="DataOutputStreamShuJuJiaMi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.OutputStream.DataOutputStreamShuJuJiaMi" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IO.OutputStream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringText">
     <configuration name="SerializableMoreObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IO.SerializeObjectInOutps.SerializableMoreObject" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IO.SerializeObjectInOutps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShuJuJiaMi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextClass.ShuJuJiaMi" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TextClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,20 +171,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextClass.StringText" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TextClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Synchronized1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadStudy.SynchronizedTest.Synchronized1" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadStudy.SynchronizedTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DataOutputStreamShuJuJiaMi" />
-      <item itemvalue="Application.ShuJuJiaMi" />
       <item itemvalue="Application.SimpleLogMain" />
       <item itemvalue="Application.SimpleLogTxt" />
       <item itemvalue="Application.SerializableMoreObject" />
+      <item itemvalue="Application.Synchronized1" />
+      <item itemvalue="Application.StringText" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringText" />
+        <item itemvalue="Application.Synchronized1" />
         <item itemvalue="Application.SerializableMoreObject" />
         <item itemvalue="Application.SimpleLogTxt" />
         <item itemvalue="Application.SimpleLogMain" />
-        <item itemvalue="Application.ShuJuJiaMi" />
-        <item itemvalue="Application.DataOutputStreamShuJuJiaMi" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +387,9 @@
       <workItem from="1610586829599" duration="3377000" />
       <workItem from="1610602466853" duration="1473000" />
       <workItem from="1610605036486" duration="4466000" />
-      <workItem from="1610622062741" duration="12945000" />
+      <workItem from="1610622062741" duration="12994000" />
+      <workItem from="1610720635357" duration="2067000" />
+      <workItem from="1610723255990" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -517,32 +505,32 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609290013697" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610206129820" />
-    <state width="1637" height="224" key="GridCell.Tab.0.bottom" timestamp="1610635296310">
+    <state width="1637" height="199" key="GridCell.Tab.0.bottom" timestamp="1610723003668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1637" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610635296310" />
+    <state width="1637" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610723003668" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1637" height="224" key="GridCell.Tab.0.center" timestamp="1610635296310">
+    <state width="1637" height="199" key="GridCell.Tab.0.center" timestamp="1610723003668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1637" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610635296310" />
+    <state width="1637" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610723003668" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1637" height="224" key="GridCell.Tab.0.left" timestamp="1610635296310">
+    <state width="1637" height="199" key="GridCell.Tab.0.left" timestamp="1610723003668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1637" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610635296310" />
+    <state width="1637" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610723003668" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1637" height="224" key="GridCell.Tab.0.right" timestamp="1610635296310">
+    <state width="1637" height="199" key="GridCell.Tab.0.right" timestamp="1610723003668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1637" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610635296310" />
+    <state width="1637" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610723003668" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
     <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1610335357914">

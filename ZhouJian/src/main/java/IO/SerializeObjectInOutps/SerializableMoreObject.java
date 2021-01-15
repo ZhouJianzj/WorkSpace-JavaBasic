@@ -43,7 +43,7 @@ public class SerializableMoreObject {
 //        System.out.println(o);
 //       集合的相关的知识，for循环的时候类型取集合的类型对象，也就是集合里面装的元素的数据类型
         for(Student lll: ls){
-            System.out.println(ll  l);
+            System.out.println(lll);
         }
 
     }
