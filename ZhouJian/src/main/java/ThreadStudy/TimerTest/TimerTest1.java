@@ -28,6 +28,7 @@ public class TimerTest1 {
         }
 //        schedule 表示课程表的意思，里面的参数表示需要执行的timer定时器任务，从什么时间开始，间隔多少秒
         timer.schedule(new MyTimer(),startTime,2000);
+
     }
 }
 class MyTimer extends TimerTask{

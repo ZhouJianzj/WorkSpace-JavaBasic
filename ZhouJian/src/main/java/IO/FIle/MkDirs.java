@@ -21,6 +21,8 @@ public class MkDirs {
 //                file.createNewFile();
 //                这里创建是一个文件夹
                 file.mkdirs();
+                file.mkdir();
+                file.delete();
                 String absolutePath = file.getAbsolutePath();
                 System.out.println(absolutePath);
 //                返回的是上一级的文件名

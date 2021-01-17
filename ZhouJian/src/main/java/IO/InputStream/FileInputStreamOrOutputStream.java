@@ -1,9 +1,6 @@
 package IO.InputStream;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * @ClassName FileInputStreamOrOutputStream
@@ -15,37 +12,42 @@ import java.io.IOException;
  **/
 public class FileInputStreamOrOutputStream {
     public static void main(String[] args) {
-        FileInputStream fileInputStream = null;
-        int a = 0 ;
+        FileReader fileReader= null;
+        FileWriter fileWriter = null;
         try {
 //            会出现异常
 //            这里的文件路径默认可以直接的创建在项目的文件下，可以直接写文件名字，不适用绝对路径 absolute
-            fileInputStream = new FileInputStream("D:\\workspace\\ZhouJian\\src\\main\\resources\\新建文本文档.txt");
-//            当读取到最后一个字节的是时候没有了就返回一个  -1
-//             while (true){
-//                  a = fileInputStream.read();
-//                 if (a == -1) {
-//                     break;
-//                 }
-//                 System.out.println(a);
-//             }
+            fileReader = new FileReader("D:\\workspace\\ZhouJian\\src\\main\\resources\\新建文本文档.txt");
+            fileWriter = new FileWriter("D:\\workspace\\ZhouJian\\src\\main\\resources\\新建文本文档.txt", true);
 
+//
+            char[] chars = new char[10];
 //            改进的写法
-            while ((a = fileInputStream.read()) != -1){
-                //这里返回的是数组的现在读取的长度
-//                System.out.println(new String(byte ,0,byte.length));
+            while (true){
+                int a = fileReader.read(chars);
+                if (a != -1) {
+                    break;
+                }
+                fileWriter.write(chars, 0, a);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
 //            避免空指针异常
-            if (fileInputStream == null) {
+            if (fileReader == null) {
                 try {
 //                  关闭字节输入流
-                    fileInputStream.close();
+                    fileReader.close();
                 }catch (Exception e){
                     e.printStackTrace();
                 }
+            }
+            if (fileWriter != null) {
+                    try {
+                        fileWriter.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
             }
         }
 
