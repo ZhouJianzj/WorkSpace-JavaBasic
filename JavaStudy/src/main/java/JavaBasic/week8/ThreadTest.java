@@ -11,8 +11,13 @@ import JavaBasic.week8.BaiDuSaleSticket.SaleTicket;
 public class ThreadTest {
     public static void main(String[] args) {
 //        这里的不是启用的多线，只是调用saleTicketThread中的run方法
-        SaleTicketThread saleTickrtThread = new SaleTicketThread();
-        saleTickrtThread.run();
+        SaleTicketThread saleTicketThread = new SaleTicketThread(20);
+        Thread thread = new Thread(saleTicketThread);
+        thread.setName("窗口1：");
+        Thread thread1 = new Thread(saleTicketThread);
+        thread1.setName("窗口2：");
+        thread.start();
+        thread1.start();
 
     }
 }

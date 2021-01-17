@@ -40,7 +40,10 @@ public class JDBCConTest {
             //statement.executeQuery(sql);
             //专门执行DML语句的,返回值是int类型表示影响数据库中表的记录条数
             int executeUpdate = statement.executeUpdate(sql2);
+            ResultSet resultSet = statement.executeQuery(sql);
             System.out.println(executeUpdate);
+
+
 //        处理结果集
 
         }catch(SQLException e){

@@ -20,6 +20,7 @@ class TestPriority{
         System.out.println(sp.getPriority());
 //        设置优先级
         sp.setPriority(10);
+
         sp.start();
         Thread.currentThread().setName("main thread");
         for (int a = 0; a < 100 ; a++){

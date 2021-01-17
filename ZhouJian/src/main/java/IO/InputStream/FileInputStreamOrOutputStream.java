@@ -17,19 +17,11 @@ public class FileInputStreamOrOutputStream {
         try {
 //            会出现异常
 //            这里的文件路径默认可以直接的创建在项目的文件下，可以直接写文件名字，不适用绝对路径 absolute
-            fileReader = new FileReader("D:\\workspace\\ZhouJian\\src\\main\\resources\\新建文本文档.txt");
-            fileWriter = new FileWriter("D:\\workspace\\ZhouJian\\src\\main\\resources\\新建文本文档.txt", true);
+            fileReader = new FileReader("C:\\Users\\Administrator\\Desktop\\新建文本文档.txt");
+            fileWriter = new FileWriter("C:\\Users\\Administrator\\Desktop\\新建文本文档1.txt", true);
 
 //
-            char[] chars = new char[10];
-//            改进的写法
-            while (true){
-                int a = fileReader.read(chars);
-                if (a != -1) {
-                    break;
-                }
-                fileWriter.write(chars, 0, a);
-            }
+            int read = fileReader.read();
         } catch (IOException e) {
             e.printStackTrace();
         }finally {

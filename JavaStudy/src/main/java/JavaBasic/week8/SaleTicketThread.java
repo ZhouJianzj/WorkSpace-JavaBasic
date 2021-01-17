@@ -9,16 +9,19 @@ import jdk.jfr.StackTrace;
  * @Date 2020/12/7
  **/
 public class SaleTicketThread implements Runnable{
-public int total;
+    int total;
+public SaleTicketThread(int total){
+    this.total = total;
+}
 public SaleTicketThread(){
-    total = 10;
+
 }
     @Override
     public void run() {
         while(true){
             synchronized (this){
                 if (total > 0){
-                    System.out.println("剩余票数：" + --total);
+                    System.out.println( Thread.currentThread().getName() + "剩余票数：" + --total);
                     try {
                         Thread.sleep(1000);
                     }catch (InterruptedException e){

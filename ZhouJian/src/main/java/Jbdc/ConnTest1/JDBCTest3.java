@@ -20,7 +20,7 @@ public class JDBCTest3 {
         Statement statement = null;
         ResultSet resultSet = null;
         try {
-            Class aClass = Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");
             String  url = "jdbc:mysql://127.0.0.1:3306/ZhouJian";
             String user = "root";
             String passWord = "123456";
