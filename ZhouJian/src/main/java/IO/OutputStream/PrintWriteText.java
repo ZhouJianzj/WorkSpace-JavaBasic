@@ -18,7 +18,7 @@ public class PrintWriteText {
 //        PrintStream out = System.out;
 //        创建一个标准输出流的输出路径
 
-        
+
         PrintStream p = new PrintStream(new FileOutputStream("C:\\Users\\Administrator\\Desktop\\AAA.txt"));
 //        改变控制台输出路径
         System.setOut(p);

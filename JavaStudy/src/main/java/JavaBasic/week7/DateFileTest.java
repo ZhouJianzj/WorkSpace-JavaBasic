@@ -1,6 +1,7 @@
 package JavaBasic.week7;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 
 /**
@@ -17,6 +18,7 @@ import java.time.LocalDate;
 public class DateFileTest {
     public static void main(String[] args) {
         LocalDate today = LocalDate.now();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-HH-dd HH:mm:ss");
         String dirName = today.getYear() + "-" + today.getMonthValue()+ "-"+ today.getDayOfMonth();
 //        给定一个路径 并且按照自己的想法定义文件夹的名字
         File file = new File("C:\\Users\\Administrator\\Desktop\\" + dirName);

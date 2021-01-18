@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/AADAD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/SaleTicketThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/SaleTicketThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/ForText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/PicTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/WriteCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/WriteCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/ScannerAndFileOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/ScannerAndFileOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/DateFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week7/DateFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/PrintWriteText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/PrintWriteText.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,6 +393,7 @@
       <workItem from="1610724271455" duration="326000" />
       <workItem from="1610807005770" duration="2209000" />
       <workItem from="1610862516593" duration="23603000" />
+      <workItem from="1610937347418" duration="4423000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
