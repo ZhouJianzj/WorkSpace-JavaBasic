@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/AAAAAA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/SuperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/AADAD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/SaleTicketThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/SaleTicketThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBasic/week8/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/FileInputStreamOrOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/InputStream/FileInputStreamOrOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCConTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCConTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Jbdc/ConnTest1/JDBCTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/JoinMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/JoinMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/SetPriorityMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/OnThreadMethods/SetPriorityMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/ForText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/PicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/WriteCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/Copy/WriteCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/ScannerAndFileOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/IO/OutputStream/ScannerAndFileOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/ThreadStudy/WaitAndNotify/Work.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +38,8 @@
       <list>
         <option value="Kotlin File" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -399,7 +397,7 @@
       <workItem from="1610723255990" duration="86000" />
       <workItem from="1610724271455" duration="326000" />
       <workItem from="1610807005770" duration="2209000" />
-      <workItem from="1610862516593" duration="20660000" />
+      <workItem from="1610862516593" duration="23603000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>

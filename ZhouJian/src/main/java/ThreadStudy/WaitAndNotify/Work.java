@@ -36,7 +36,6 @@ class OuShu implements Runnable{
     public OuShu(Number a){
         this.a = a;
     }
-
     @Override
     public void run() {
         while (true){

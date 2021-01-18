@@ -15,8 +15,10 @@ import java.io.*;
 public class PrintWriteText {
     public static void main(String[] args) throws FileNotFoundException {
 //        控制台输出的就是标准的输出流
-        PrintStream out = System.out;
+//        PrintStream out = System.out;
 //        创建一个标准输出流的输出路径
+
+        
         PrintStream p = new PrintStream(new FileOutputStream("C:\\Users\\Administrator\\Desktop\\AAA.txt"));
 //        改变控制台输出路径
         System.setOut(p);

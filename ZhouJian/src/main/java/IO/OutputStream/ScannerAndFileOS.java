@@ -25,7 +25,7 @@ public class ScannerAndFileOS {
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
-            if (f == null) {
+            if (f != null) {
                 try {
                     f.close();
                 } catch (IOException e) {

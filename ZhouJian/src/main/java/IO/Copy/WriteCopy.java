@@ -24,7 +24,7 @@ public class WriteCopy {
             r = new FileReader("C:\\Users\\Administrator\\Desktop\\AAA.txt");
             w = new FileWriter("C:\\Users\\Administrator\\Desktop\\AA.txt");
              while ( (a = r.read(c)) != -1){
-                 w.write(c);
+                 w.write(c,0,a);
                  w.flush();
              }
         } catch (IOException e) {
