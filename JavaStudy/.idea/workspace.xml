@@ -4,9 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/TextClass/DataBase.java" afterDir="false" />
-    </list>
+    <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -393,7 +391,7 @@
       <workItem from="1610807005770" duration="2209000" />
       <workItem from="1610862516593" duration="23603000" />
       <workItem from="1610937347418" duration="4423000" />
-      <workItem from="1611059259894" duration="1017000" />
+      <workItem from="1611059259894" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
