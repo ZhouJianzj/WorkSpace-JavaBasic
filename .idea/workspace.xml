@@ -2,10 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c67a74-aba6-4b57-9132-316d838c3f56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WeChar/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__io_opentracing_opentracing_api_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__io_opentracing_opentracing_util_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_poi_poi_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_ini4j_ini4j_0_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_projectlombok_lombok_1_18_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/CollectionPractical/Collection04.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/CollectionPractical/Collection04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/CollectionPractical/Collection05.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/CollectionPractical/Collection05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +76,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="SshConsoleOptionsProvider">
@@ -60,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606110680765</updated>
       <workItem from="1606110683829" duration="146000" />
+      <workItem from="1611227781792" duration="1621000" />
     </task>
     <servers />
   </component>
@@ -71,9 +108,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="448" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606110826197" />
-    <state x="43" y="0" key="new project wizard" timestamp="1606110827993">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="60" y="0" key="new project wizard" timestamp="1611227848620">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="60" y="0" key="new project wizard/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611227848620" />
     <state x="43" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606110827993" />
   </component>
 </project>

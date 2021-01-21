@@ -4,7 +4,45 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="" />
+    <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_05.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_api_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentracing_opentracing_util_0_33_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ini4j_ini4j_0_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection05.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +122,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyCRM/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -128,13 +166,26 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadTest">
-    <configuration name="FileInputStreamOrOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.InputStream.FileInputStreamOrOutputStream" />
+  <component name="RunManager" selected="Application.Collection05">
+    <configuration name="Collection04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionPractical.Collection04" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IO.InputStream.*" />
+          <option name="PATTERN" value="CollectionPractical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Collection05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionPractical.Collection05" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionPractical.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +195,6 @@
     </configuration>
     <configuration name="JoinMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadStudy.OnThreadMethods.JoinMethod" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThreadStudy.OnThreadMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadStudy.OnThreadMethods.TestPriority" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
@@ -195,19 +233,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileInputStreamOrOutputStream" />
-      <item itemvalue="Application.TestPriority" />
       <item itemvalue="Application.JoinMethod" />
       <item itemvalue="Application.TestThread" />
       <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Application.Collection04" />
+      <item itemvalue="Application.Collection05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collection05" />
+        <item itemvalue="Application.Collection04" />
         <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.JoinMethod" />
-        <item itemvalue="Application.TestPriority" />
-        <item itemvalue="Application.FileInputStreamOrOutputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -392,6 +430,9 @@
       <workItem from="1610862516593" duration="23603000" />
       <workItem from="1610937347418" duration="4423000" />
       <workItem from="1611059259894" duration="1092000" />
+      <workItem from="1611143812688" duration="19000" />
+      <workItem from="1611224928775" duration="2514000" />
+      <workItem from="1611227678600" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -502,35 +543,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1048" y="240" key="ConfigureClientPropertiesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604839996921" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610206129820">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611227777392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611227777392" />
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609290013697" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610206129820" />
-    <state width="1520" height="600" key="GridCell.Tab.0.bottom" timestamp="1610895526413">
+    <state width="1306" height="200" key="GridCell.Tab.0.bottom" timestamp="1611227669789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1306" height="200" key="GridCell.Tab.0.bottom/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611227669789" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
     <state width="1520" height="600" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610895526413" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1520" height="600" key="GridCell.Tab.0.center" timestamp="1610895526413">
+    <state width="1306" height="200" key="GridCell.Tab.0.center" timestamp="1611227669789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1306" height="200" key="GridCell.Tab.0.center/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611227669789" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
     <state width="1520" height="600" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610895526413" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1520" height="600" key="GridCell.Tab.0.left" timestamp="1610895526412">
+    <state width="1306" height="200" key="GridCell.Tab.0.left" timestamp="1611227669789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1306" height="200" key="GridCell.Tab.0.left/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611227669789" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
     <state width="1520" height="600" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610895526412" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1520" height="600" key="GridCell.Tab.0.right" timestamp="1610895526413">
+    <state width="1306" height="200" key="GridCell.Tab.0.right" timestamp="1611227669789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1306" height="200" key="GridCell.Tab.0.right/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611227669789" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
     <state width="1520" height="600" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610895526413" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
@@ -603,9 +649,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="758" y="398" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1366.728@0.0.1366.728" timestamp="1607328426011" />
-    <state x="34" y="0" key="new project wizard" timestamp="1609290031852">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="48" y="0" key="new project wizard" timestamp="1611227555804">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="48" y="0" key="new project wizard/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611227555804" />
     <state x="34" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1609290031852" />
     <state x="334" y="43" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603719248622" />
     <state x="664" y="322" width="716" height="586" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1608705312955">

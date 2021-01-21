@@ -18,11 +18,15 @@ public class Collection04 {
         Collection cc = new ArrayList();
         String a = new String("abc");
         String b = new String("dfg");
+        String abc = "abc";
+        cc.add(abc);
         cc.add(a);
         cc.add(b);
         String c = new String("abc");
 //       输出的结构时true,原因是contains调用了equals方法，然而String方法当中的equals重写过了
         System.out.println(cc.contains(c));
+        //下面执行的结构为true
+        System.out.println(cc.contains(abc));
 //       详情查看Collection05
 
     }
