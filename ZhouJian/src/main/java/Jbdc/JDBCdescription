@@ -1,3 +1,4 @@
+学习中的到补充  ：先拼接好sql 再addbatch（）一批一批的像子弹压弹甲一样的
 JDBC的六大步骤
     1、获取驱动
     2、建立连接（使用完记得关闭）
@@ -40,3 +41,8 @@ JDBC的六大步骤
 executeQuery()和executeUpdate()操作的语言
         executeQuery():执行的是DQL  也就是select
         executeUpdate():执行的是MDL  也就是 inset into / deleter from /Update set
+数据库中的事务处理
+        1、要是两个以及两个以上的命令
+        2、两个命令有一定的关联性
+        3、是对connection进行处理的 setAutoCommit（）,
+            connection.rollBack(),connection.commit()

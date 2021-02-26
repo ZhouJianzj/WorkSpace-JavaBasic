@@ -1,4 +1,4 @@
-package Jbdc;
+package Jbdc.ConnTest1;
 
 /**q
  * @ClassName InterfaceJDBC

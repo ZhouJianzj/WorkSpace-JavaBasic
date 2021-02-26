@@ -2,50 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c67a74-aba6-4b57-9132-316d838c3f56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WeChar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/jdbcFengZhuang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/textAbbBatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/textTrunsaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/TextClass/ADADaw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_4_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_05.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__io_opentracing_opentracing_api_0_33_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_33_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__io_opentracing_opentracing_util_0_33_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_poi_poi_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_ini4j_ini4j_0_5_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_jacoco_org_jacoco_agent_runtime_0_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_projectlombok_lombok_1_18_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/CRM.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/CollectionPractical/Collection04.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/CollectionPractical/Collection04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/CollectionPractical/Collection05.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/CollectionPractical/Collection05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCRM/MyCRM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCRM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyCRM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCRM/src/main/java/com/jz/JFrame/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCRM/src/main/java/com/jz/JFrame/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCRM/src/main/java/com/jz/Service/ImplementLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCRM/src/main/java/Service/ImplementLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeChar/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/ZhouJian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/InterfaceJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/InterfaceJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/JDBCdescription" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/JDBCdescription" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/JavaProgrammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/JavaProgrammer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/MySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/MySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/TextClass/AADAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/TextClass/AADAD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,8 +65,46 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/MyCRM/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jz.JFrame.Login" />
+      <module name="MyCRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jz.JFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverRide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DuoTai.OverRide" />
+      <module name="workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DuoTai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.OverRide" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -96,7 +120,25 @@
       <option name="presentableId" value="Default" />
       <updated>1606110680765</updated>
       <workItem from="1606110683829" duration="146000" />
-      <workItem from="1611227781792" duration="1621000" />
+      <workItem from="1611227781792" duration="1935000" />
+      <workItem from="1611280881074" duration="1803000" />
+      <workItem from="1611473624088" duration="506000" />
+      <workItem from="1611813615408" duration="974000" />
+      <workItem from="1611815735665" duration="392000" />
+      <workItem from="1611816181516" duration="640000" />
+      <workItem from="1612082152984" duration="390000" />
+      <workItem from="1612083852964" duration="2229000" />
+      <workItem from="1612090299963" duration="7277000" />
+      <workItem from="1612153625218" duration="6298000" />
+      <workItem from="1612169712027" duration="51000" />
+      <workItem from="1612235182964" duration="153000" />
+      <workItem from="1612252078820" duration="1113000" />
+      <workItem from="1612259682632" duration="22000" />
+      <workItem from="1612419924621" duration="442000" />
+      <workItem from="1612665661834" duration="64000" />
+      <workItem from="1614320908801" duration="3829000" />
+      <workItem from="1614326039266" duration="534000" />
+      <workItem from="1614326720269" duration="2205000" />
     </task>
     <servers />
   </component>
@@ -104,14 +146,51 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="448" y="119" key="FileChooserDialogImpl" timestamp="1606110826197">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="448" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606110826197" />
-    <state x="60" y="0" key="new project wizard" timestamp="1611227848620">
+    <state x="466" y="318" key="#Project_Structure" timestamp="1612102198983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="60" y="0" key="new project wizard/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611227848620" />
+    <state x="466" y="318" key="#Project_Structure/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612102198983" />
+    <state x="690" y="485" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1611813846940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="485" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611813846940" />
+    <state x="630" y="170" key="FileChooserDialogImpl" timestamp="1611816585716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="170" key="FileChooserDialogImpl/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611816585716" />
+    <state x="448" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606110826197" />
+    <state x="550" y="373" key="NewModule_or_Project.wizard" timestamp="1611816587679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="373" key="NewModule_or_Project.wizard/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611816587679" />
+    <state x="396" y="189" key="SettingsEditor" timestamp="1611816745291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="396" y="189" key="SettingsEditor/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611816745291" />
+    <state x="-826" y="451" key="chooseDestDirectoryDialog" timestamp="1612154600367">
+      <screen x="-1366" y="243" width="1366" height="728" />
+    </state>
+    <state x="-826" y="451" key="chooseDestDirectoryDialog/-1366.243.1366.728/0.0.1920.1040@-1366.243.1366.728" timestamp="1612154600367" />
+    <state x="759" y="297" key="chooseDestDirectoryDialog/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612102174151" />
+    <state x="60" y="0" key="new project wizard" timestamp="1612082536150">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="60" y="0" key="new project wizard/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612082536150" />
     <state x="43" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606110827993" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614327514804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614327514804" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/JavaProgrammer.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

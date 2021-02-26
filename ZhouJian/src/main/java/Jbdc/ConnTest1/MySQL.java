@@ -1,4 +1,6 @@
-package Jbdc;
+package Jbdc.ConnTest1;
+
+import Jbdc.ConnTest1.InterfaceJDBC;
 
 /**
  * @ClassName MySQL

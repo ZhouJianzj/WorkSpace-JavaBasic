@@ -16,7 +16,7 @@ import java.sql.Statement;
  * @Author
  * @Date 2021/1/4
  **/
-public class ImplementLoginService implements loginService {
+public class ImplementLoginService implements Service.loginService {
     @Override
     public Boolean checkedLogin(login login) {
         JdbcUtil initJdbcUtil = JdbcUtil.getInitJdbcUtil();
