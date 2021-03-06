@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c67a74-aba6-4b57-9132-316d838c3f56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/jdbcFengZhuang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/textAbbBatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/textTrunsaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/TextClass/ADADaw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/CRM.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCRM/MyCRM.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCRM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyCRM/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCRM/src/main/java/com/jz/JFrame/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCRM/src/main/java/com/jz/JFrame/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCRM/src/main/java/com/jz/Service/ImplementLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCRM/src/main/java/Service/ImplementLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeChar/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/ZhouJian.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/InterfaceJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/InterfaceJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/JDBCdescription" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/JDBCdescription" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/JavaProgrammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/JavaProgrammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/MySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/Jbdc/ConnTest1/MySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/TextClass/AADAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/TextClass/AADAD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +123,7 @@
       <workItem from="1614320908801" duration="3829000" />
       <workItem from="1614326039266" duration="534000" />
       <workItem from="1614326720269" duration="2205000" />
+      <workItem from="1615034581170" duration="1487000" />
     </task>
     <servers />
   </component>

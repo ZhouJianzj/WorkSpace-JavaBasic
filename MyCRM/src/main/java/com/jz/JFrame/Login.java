@@ -31,7 +31,7 @@ public class Login extends JFrame {
     SystemTray systemTray;
 
     public Login(){
-      setTitle("皮卡丘");
+        setTitle("皮卡丘");
       setLocationRelativeTo(null);
         Container contentPane = getContentPane();
         setSize(430,300);
