@@ -1,5 +1,8 @@
 package IO.Copy;
 
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -20,6 +23,12 @@ public class FileCopy02 {
         try {
             f = new FileInputStream("D:\\嗨格式录屏文件\\AA.mp4");
             ff = new FileOutputStream("D:\\嗨格式录屏文件\\A\\A.mp4");
+            Button button = new Button();
+            button.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+
+                }
+            });
 //          改近之后的写法
             while (f.available() != 0){
                 int a = f.read(b);

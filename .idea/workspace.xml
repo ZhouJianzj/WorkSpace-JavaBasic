@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06c67a74-aba6-4b57-9132-316d838c3f56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCRM/src/main/java/com/jz/JFrame/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCRM/src/main/java/com/jz/JFrame/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZhouJian/src/main/java/IO/Copy/FileCopy02.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZhouJian/src/main/java/IO/Copy/FileCopy02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +124,7 @@
       <workItem from="1614326039266" duration="534000" />
       <workItem from="1614326720269" duration="2205000" />
       <workItem from="1615034581170" duration="1487000" />
+      <workItem from="1615184121182" duration="1000000" />
     </task>
     <servers />
   </component>
